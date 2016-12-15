@@ -1,0 +1,1135 @@
+ plgrid/apps/cuda/7.0 loaded.
+#gcc -Wall -I. -IUDADIR/include -LUDADIR/lib64 -lOpenCL -o sumReductionGPU sumReductionGPU.c
+Date       Time        gpu   pwr  temp  mclk  pclk
+#YYYYMMDD   HH:MM:SS    Idx     W     C   MHz   MHz
+ 20161213   18:37:53      0    13    36   324   324
+ 20161213   18:37:53      1    13    33   324   324
+Problem size = 1024 Final Sum Sequential = 5.2480000000000000000e+05 Final Sum GPU = 5.2480000000000000000e+05 Initializing Arrays : Wall Clock = 0 second 31 micro Preparing GPU/OpenCL : Wall Clock = 0 second 142883 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 45 micro Time for Sequential Sum computing : Wall Clock = 0 second 4 micro
+Valid pass : Trial = 0 ; Array size = 1024 ; WorkGroup size = 16
+Problem size = 1024 Final Sum Sequential = 5.2480000000000000000e+05 Final Sum GPU = 5.2480000000000000000e+05 Initializing Arrays : Wall Clock = 0 second 30 micro Preparing GPU/OpenCL : Wall Clock = 0 second 133642 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 60 micro Time for Sequential Sum computing : Wall Clock = 0 second 3 micro
+Valid pass : Trial = 1 ; Array size = 1024 ; WorkGroup size = 16
+Problem size = 1024 Final Sum Sequential = 5.2480000000000000000e+05 Final Sum GPU = 5.2480000000000000000e+05 Initializing Arrays : Wall Clock = 0 second 35 micro Preparing GPU/OpenCL : Wall Clock = 0 second 138551 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 81 micro Time for Sequential Sum computing : Wall Clock = 0 second 8 micro
+Valid pass : Trial = 2 ; Array size = 1024 ; WorkGroup size = 16
+Problem size = 1024 Final Sum Sequential = 5.2480000000000000000e+05 Final Sum GPU = 5.2480000000000000000e+05 Initializing Arrays : Wall Clock = 0 second 30 micro Preparing GPU/OpenCL : Wall Clock = 0 second 143742 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 49 micro Time for Sequential Sum computing : Wall Clock = 0 second 3 micro
+Valid pass : Trial = 3 ; Array size = 1024 ; WorkGroup size = 16
+ 20161213   18:37:54      0    67    37  3004   745
+ 20161213   18:37:54      1    13    33   324   324
+Problem size = 1024 Final Sum Sequential = 5.2480000000000000000e+05 Final Sum GPU = 5.2480000000000000000e+05 Initializing Arrays : Wall Clock = 0 second 33 micro Preparing GPU/OpenCL : Wall Clock = 0 second 138504 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 48 micro Time for Sequential Sum computing : Wall Clock = 0 second 3 micro
+Valid pass : Trial = 4 ; Array size = 1024 ; WorkGroup size = 16
+Problem size = 1024 Final Sum Sequential = 5.2480000000000000000e+05 Final Sum GPU = 5.2480000000000000000e+05 Initializing Arrays : Wall Clock = 0 second 30 micro Preparing GPU/OpenCL : Wall Clock = 0 second 138037 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 61 micro Time for Sequential Sum computing : Wall Clock = 0 second 7 micro
+Valid pass : Trial = 5 ; Array size = 1024 ; WorkGroup size = 16
+Problem size = 1024 Final Sum Sequential = 5.2480000000000000000e+05 Final Sum GPU = 5.2480000000000000000e+05 Initializing Arrays : Wall Clock = 0 second 30 micro Preparing GPU/OpenCL : Wall Clock = 0 second 137354 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 75 micro Time for Sequential Sum computing : Wall Clock = 0 second 3 micro
+Valid pass : Trial = 6 ; Array size = 1024 ; WorkGroup size = 16
+Problem size = 1024 Final Sum Sequential = 5.2480000000000000000e+05 Final Sum GPU = 5.2480000000000000000e+05 Initializing Arrays : Wall Clock = 0 second 51 micro Preparing GPU/OpenCL : Wall Clock = 0 second 139564 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 62 micro Time for Sequential Sum computing : Wall Clock = 0 second 3 micro
+Valid pass : Trial = 7 ; Array size = 1024 ; WorkGroup size = 16
+Problem size = 1024 Final Sum Sequential = 5.2480000000000000000e+05 Final Sum GPU = 5.2480000000000000000e+05 Initializing Arrays : Wall Clock = 0 second 57 micro Preparing GPU/OpenCL : Wall Clock = 0 second 139084 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 48 micro Time for Sequential Sum computing : Wall Clock = 0 second 2 micro
+Valid pass : Trial = 8 ; Array size = 1024 ; WorkGroup size = 16
+ 20161213   18:37:55      0    67    37  3004   745
+ 20161213   18:37:55      1    13    32   324   324
+Problem size = 1024 Final Sum Sequential = 5.2480000000000000000e+05 Final Sum GPU = 5.2480000000000000000e+05 Initializing Arrays : Wall Clock = 0 second 30 micro Preparing GPU/OpenCL : Wall Clock = 0 second 139155 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 47 micro Time for Sequential Sum computing : Wall Clock = 0 second 3 micro
+Valid pass : Trial = 9 ; Array size = 1024 ; WorkGroup size = 16
+Problem size = 1024 Final Sum Sequential = 5.2480000000000000000e+05 Final Sum GPU = 5.2480000000000000000e+05 Initializing Arrays : Wall Clock = 0 second 41 micro Preparing GPU/OpenCL : Wall Clock = 0 second 138286 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 48 micro Time for Sequential Sum computing : Wall Clock = 0 second 3 micro
+Valid pass : Trial = 10 ; Array size = 1024 ; WorkGroup size = 16
+Problem size = 1024 Final Sum Sequential = 5.2480000000000000000e+05 Final Sum GPU = 5.2480000000000000000e+05 Initializing Arrays : Wall Clock = 0 second 31 micro Preparing GPU/OpenCL : Wall Clock = 0 second 140702 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 49 micro Time for Sequential Sum computing : Wall Clock = 0 second 2 micro
+Valid pass : Trial = 0 ; Array size = 1024 ; WorkGroup size = 32
+Problem size = 1024 Final Sum Sequential = 5.2480000000000000000e+05 Final Sum GPU = 5.2480000000000000000e+05 Initializing Arrays : Wall Clock = 0 second 30 micro Preparing GPU/OpenCL : Wall Clock = 0 second 138400 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 59 micro Time for Sequential Sum computing : Wall Clock = 0 second 3 micro
+Valid pass : Trial = 1 ; Array size = 1024 ; WorkGroup size = 32
+Problem size = 1024 Final Sum Sequential = 5.2480000000000000000e+05 Final Sum GPU = 5.2480000000000000000e+05 Initializing Arrays : Wall Clock = 0 second 30 micro Preparing GPU/OpenCL : Wall Clock = 0 second 137146 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 47 micro Time for Sequential Sum computing : Wall Clock = 0 second 3 micro
+Valid pass : Trial = 2 ; Array size = 1024 ; WorkGroup size = 32
+ 20161213   18:37:56      0    67    38  3004   745
+ 20161213   18:37:56      1    14    33   324   324
+Problem size = 1024 Final Sum Sequential = 5.2480000000000000000e+05 Final Sum GPU = 5.2480000000000000000e+05 Initializing Arrays : Wall Clock = 0 second 31 micro Preparing GPU/OpenCL : Wall Clock = 0 second 141811 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 47 micro Time for Sequential Sum computing : Wall Clock = 0 second 3 micro
+Valid pass : Trial = 3 ; Array size = 1024 ; WorkGroup size = 32
+Problem size = 1024 Final Sum Sequential = 5.2480000000000000000e+05 Final Sum GPU = 5.2480000000000000000e+05 Initializing Arrays : Wall Clock = 0 second 31 micro Preparing GPU/OpenCL : Wall Clock = 0 second 135703 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 47 micro Time for Sequential Sum computing : Wall Clock = 0 second 3 micro
+Valid pass : Trial = 4 ; Array size = 1024 ; WorkGroup size = 32
+Problem size = 1024 Final Sum Sequential = 5.2480000000000000000e+05 Final Sum GPU = 5.2480000000000000000e+05 Initializing Arrays : Wall Clock = 0 second 30 micro Preparing GPU/OpenCL : Wall Clock = 0 second 136500 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 59 micro Time for Sequential Sum computing : Wall Clock = 0 second 3 micro
+Valid pass : Trial = 5 ; Array size = 1024 ; WorkGroup size = 32
+Problem size = 1024 Final Sum Sequential = 5.2480000000000000000e+05 Final Sum GPU = 5.2480000000000000000e+05 Initializing Arrays : Wall Clock = 0 second 31 micro Preparing GPU/OpenCL : Wall Clock = 0 second 138961 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 59 micro Time for Sequential Sum computing : Wall Clock = 0 second 3 micro
+Valid pass : Trial = 6 ; Array size = 1024 ; WorkGroup size = 32
+Problem size = 1024 Final Sum Sequential = 5.2480000000000000000e+05 Final Sum GPU = 5.2480000000000000000e+05 Initializing Arrays : Wall Clock = 0 second 31 micro Preparing GPU/OpenCL : Wall Clock = 0 second 139367 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 56 micro Time for Sequential Sum computing : Wall Clock = 0 second 3 micro
+Valid pass : Trial = 7 ; Array size = 1024 ; WorkGroup size = 32
+ 20161213   18:37:57      0    67    38  3004   745
+ 20161213   18:37:57      1    14    32   324   324
+Problem size = 1024 Final Sum Sequential = 5.2480000000000000000e+05 Final Sum GPU = 5.2480000000000000000e+05 Initializing Arrays : Wall Clock = 0 second 31 micro Preparing GPU/OpenCL : Wall Clock = 0 second 139311 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 47 micro Time for Sequential Sum computing : Wall Clock = 0 second 3 micro
+Valid pass : Trial = 8 ; Array size = 1024 ; WorkGroup size = 32
+Problem size = 1024 Final Sum Sequential = 5.2480000000000000000e+05 Final Sum GPU = 5.2480000000000000000e+05 Initializing Arrays : Wall Clock = 0 second 30 micro Preparing GPU/OpenCL : Wall Clock = 0 second 136164 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 46 micro Time for Sequential Sum computing : Wall Clock = 0 second 3 micro
+Valid pass : Trial = 9 ; Array size = 1024 ; WorkGroup size = 32
+Problem size = 1024 Final Sum Sequential = 5.2480000000000000000e+05 Final Sum GPU = 5.2480000000000000000e+05 Initializing Arrays : Wall Clock = 0 second 53 micro Preparing GPU/OpenCL : Wall Clock = 0 second 138513 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 48 micro Time for Sequential Sum computing : Wall Clock = 0 second 4 micro
+Valid pass : Trial = 10 ; Array size = 1024 ; WorkGroup size = 32
+Problem size = 1024 Final Sum Sequential = 5.2480000000000000000e+05 Final Sum GPU = 5.2480000000000000000e+05 Initializing Arrays : Wall Clock = 0 second 30 micro Preparing GPU/OpenCL : Wall Clock = 0 second 139648 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 47 micro Time for Sequential Sum computing : Wall Clock = 0 second 3 micro
+Valid pass : Trial = 0 ; Array size = 1024 ; WorkGroup size = 64
+ 20161213   18:37:58      0    67    38  3004   745
+ 20161213   18:37:58      1    14    32   324   324
+Problem size = 1024 Final Sum Sequential = 5.2480000000000000000e+05 Final Sum GPU = 5.2480000000000000000e+05 Initializing Arrays : Wall Clock = 0 second 30 micro Preparing GPU/OpenCL : Wall Clock = 0 second 142542 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 57 micro Time for Sequential Sum computing : Wall Clock = 0 second 7 micro
+Valid pass : Trial = 1 ; Array size = 1024 ; WorkGroup size = 64
+Problem size = 1024 Final Sum Sequential = 5.2480000000000000000e+05 Final Sum GPU = 5.2480000000000000000e+05 Initializing Arrays : Wall Clock = 0 second 29 micro Preparing GPU/OpenCL : Wall Clock = 0 second 139281 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 57 micro Time for Sequential Sum computing : Wall Clock = 0 second 3 micro
+Valid pass : Trial = 2 ; Array size = 1024 ; WorkGroup size = 64
+Problem size = 1024 Final Sum Sequential = 5.2480000000000000000e+05 Final Sum GPU = 5.2480000000000000000e+05 Initializing Arrays : Wall Clock = 0 second 30 micro Preparing GPU/OpenCL : Wall Clock = 0 second 132972 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 49 micro Time for Sequential Sum computing : Wall Clock = 0 second 3 micro
+Valid pass : Trial = 3 ; Array size = 1024 ; WorkGroup size = 64
+Problem size = 1024 Final Sum Sequential = 5.2480000000000000000e+05 Final Sum GPU = 5.2480000000000000000e+05 Initializing Arrays : Wall Clock = 0 second 30 micro Preparing GPU/OpenCL : Wall Clock = 0 second 139722 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 47 micro Time for Sequential Sum computing : Wall Clock = 0 second 3 micro
+Valid pass : Trial = 4 ; Array size = 1024 ; WorkGroup size = 64
+Problem size = 1024 Final Sum Sequential = 5.2480000000000000000e+05 Final Sum GPU = 5.2480000000000000000e+05 Initializing Arrays : Wall Clock = 0 second 33 micro Preparing GPU/OpenCL : Wall Clock = 0 second 138684 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 48 micro Time for Sequential Sum computing : Wall Clock = 0 second 3 micro
+Valid pass : Trial = 5 ; Array size = 1024 ; WorkGroup size = 64
+ 20161213   18:37:59      0    67    38  3004   745
+ 20161213   18:37:59      1    13    33   324   324
+Problem size = 1024 Final Sum Sequential = 5.2480000000000000000e+05 Final Sum GPU = 5.2480000000000000000e+05 Initializing Arrays : Wall Clock = 0 second 30 micro Preparing GPU/OpenCL : Wall Clock = 0 second 136941 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 48 micro Time for Sequential Sum computing : Wall Clock = 0 second 3 micro
+Valid pass : Trial = 6 ; Array size = 1024 ; WorkGroup size = 64
+Problem size = 1024 Final Sum Sequential = 5.2480000000000000000e+05 Final Sum GPU = 5.2480000000000000000e+05 Initializing Arrays : Wall Clock = 0 second 30 micro Preparing GPU/OpenCL : Wall Clock = 0 second 135247 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 47 micro Time for Sequential Sum computing : Wall Clock = 0 second 4 micro
+Valid pass : Trial = 7 ; Array size = 1024 ; WorkGroup size = 64
+Problem size = 1024 Final Sum Sequential = 5.2480000000000000000e+05 Final Sum GPU = 5.2480000000000000000e+05 Initializing Arrays : Wall Clock = 0 second 30 micro Preparing GPU/OpenCL : Wall Clock = 0 second 137569 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 58 micro Time for Sequential Sum computing : Wall Clock = 0 second 3 micro
+Valid pass : Trial = 8 ; Array size = 1024 ; WorkGroup size = 64
+Problem size = 1024 Final Sum Sequential = 5.2480000000000000000e+05 Final Sum GPU = 5.2480000000000000000e+05 Initializing Arrays : Wall Clock = 0 second 30 micro Preparing GPU/OpenCL : Wall Clock = 0 second 136784 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 71 micro Time for Sequential Sum computing : Wall Clock = 0 second 3 micro
+Valid pass : Trial = 9 ; Array size = 1024 ; WorkGroup size = 64
+Problem size = 1024 Final Sum Sequential = 5.2480000000000000000e+05 Final Sum GPU = 5.2480000000000000000e+05 Initializing Arrays : Wall Clock = 0 second 54 micro Preparing GPU/OpenCL : Wall Clock = 0 second 139965 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 47 micro Time for Sequential Sum computing : Wall Clock = 0 second 3 micro
+Valid pass : Trial = 10 ; Array size = 1024 ; WorkGroup size = 64
+ 20161213   18:38:00      0    67    38  3004   745
+ 20161213   18:38:00      1    13    33   324   324
+Problem size = 1024 Final Sum Sequential = 5.2480000000000000000e+05 Final Sum GPU = 5.2480000000000000000e+05 Initializing Arrays : Wall Clock = 0 second 31 micro Preparing GPU/OpenCL : Wall Clock = 0 second 141182 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 59 micro Time for Sequential Sum computing : Wall Clock = 0 second 3 micro
+Valid pass : Trial = 0 ; Array size = 1024 ; WorkGroup size = 128
+Problem size = 1024 Final Sum Sequential = 5.2480000000000000000e+05 Final Sum GPU = 5.2480000000000000000e+05 Initializing Arrays : Wall Clock = 0 second 30 micro Preparing GPU/OpenCL : Wall Clock = 0 second 139217 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 46 micro Time for Sequential Sum computing : Wall Clock = 0 second 3 micro
+Valid pass : Trial = 1 ; Array size = 1024 ; WorkGroup size = 128
+Problem size = 1024 Final Sum Sequential = 5.2480000000000000000e+05 Final Sum GPU = 5.2480000000000000000e+05 Initializing Arrays : Wall Clock = 0 second 31 micro Preparing GPU/OpenCL : Wall Clock = 0 second 137340 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 59 micro Time for Sequential Sum computing : Wall Clock = 0 second 3 micro
+Valid pass : Trial = 2 ; Array size = 1024 ; WorkGroup size = 128
+Problem size = 1024 Final Sum Sequential = 5.2480000000000000000e+05 Final Sum GPU = 5.2480000000000000000e+05 Initializing Arrays : Wall Clock = 0 second 30 micro Preparing GPU/OpenCL : Wall Clock = 0 second 139868 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 59 micro Time for Sequential Sum computing : Wall Clock = 0 second 3 micro
+Valid pass : Trial = 3 ; Array size = 1024 ; WorkGroup size = 128
+Problem size = 1024 Final Sum Sequential = 5.2480000000000000000e+05 Final Sum GPU = 5.2480000000000000000e+05 Initializing Arrays : Wall Clock = 0 second 31 micro Preparing GPU/OpenCL : Wall Clock = 0 second 145948 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 59 micro Time for Sequential Sum computing : Wall Clock = 0 second 3 micro
+Valid pass : Trial = 4 ; Array size = 1024 ; WorkGroup size = 128
+ 20161213   18:38:01      0    67    38  3004   745
+ 20161213   18:38:01      1    13    33   324   324
+Problem size = 1024 Final Sum Sequential = 5.2480000000000000000e+05 Final Sum GPU = 5.2480000000000000000e+05 Initializing Arrays : Wall Clock = 0 second 31 micro Preparing GPU/OpenCL : Wall Clock = 0 second 138426 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 48 micro Time for Sequential Sum computing : Wall Clock = 0 second 3 micro
+Valid pass : Trial = 5 ; Array size = 1024 ; WorkGroup size = 128
+Problem size = 1024 Final Sum Sequential = 5.2480000000000000000e+05 Final Sum GPU = 5.2480000000000000000e+05 Initializing Arrays : Wall Clock = 0 second 30 micro Preparing GPU/OpenCL : Wall Clock = 0 second 138926 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 58 micro Time for Sequential Sum computing : Wall Clock = 0 second 3 micro
+Valid pass : Trial = 6 ; Array size = 1024 ; WorkGroup size = 128
+Problem size = 1024 Final Sum Sequential = 5.2480000000000000000e+05 Final Sum GPU = 5.2480000000000000000e+05 Initializing Arrays : Wall Clock = 0 second 30 micro Preparing GPU/OpenCL : Wall Clock = 0 second 138855 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 78 micro Time for Sequential Sum computing : Wall Clock = 0 second 8 micro
+Valid pass : Trial = 7 ; Array size = 1024 ; WorkGroup size = 128
+Problem size = 1024 Final Sum Sequential = 5.2480000000000000000e+05 Final Sum GPU = 5.2480000000000000000e+05 Initializing Arrays : Wall Clock = 0 second 31 micro Preparing GPU/OpenCL : Wall Clock = 0 second 137875 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 47 micro Time for Sequential Sum computing : Wall Clock = 0 second 3 micro
+Valid pass : Trial = 8 ; Array size = 1024 ; WorkGroup size = 128
+Problem size = 1024 Final Sum Sequential = 5.2480000000000000000e+05 Final Sum GPU = 5.2480000000000000000e+05 Initializing Arrays : Wall Clock = 0 second 30 micro Preparing GPU/OpenCL : Wall Clock = 0 second 136400 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 59 micro Time for Sequential Sum computing : Wall Clock = 0 second 3 micro
+Valid pass : Trial = 9 ; Array size = 1024 ; WorkGroup size = 128
+ 20161213   18:38:02      0    67    38  3004   745
+ 20161213   18:38:02      1    13    32   324   324
+Problem size = 1024 Final Sum Sequential = 5.2480000000000000000e+05 Final Sum GPU = 5.2480000000000000000e+05 Initializing Arrays : Wall Clock = 0 second 56 micro Preparing GPU/OpenCL : Wall Clock = 0 second 138053 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 47 micro Time for Sequential Sum computing : Wall Clock = 0 second 3 micro
+Valid pass : Trial = 10 ; Array size = 1024 ; WorkGroup size = 128
+Problem size = 1024 Final Sum Sequential = 5.2480000000000000000e+05 Final Sum GPU = 5.2480000000000000000e+05 Initializing Arrays : Wall Clock = 0 second 31 micro Preparing GPU/OpenCL : Wall Clock = 0 second 136919 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 58 micro Time for Sequential Sum computing : Wall Clock = 0 second 2 micro
+Valid pass : Trial = 0 ; Array size = 1024 ; WorkGroup size = 256
+Problem size = 1024 Final Sum Sequential = 5.2480000000000000000e+05 Final Sum GPU = 5.2480000000000000000e+05 Initializing Arrays : Wall Clock = 0 second 30 micro Preparing GPU/OpenCL : Wall Clock = 0 second 135232 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 48 micro Time for Sequential Sum computing : Wall Clock = 0 second 3 micro
+Valid pass : Trial = 1 ; Array size = 1024 ; WorkGroup size = 256
+Problem size = 1024 Final Sum Sequential = 5.2480000000000000000e+05 Final Sum GPU = 5.2480000000000000000e+05 Initializing Arrays : Wall Clock = 0 second 30 micro Preparing GPU/OpenCL : Wall Clock = 0 second 138483 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 55 micro Time for Sequential Sum computing : Wall Clock = 0 second 3 micro
+Valid pass : Trial = 2 ; Array size = 1024 ; WorkGroup size = 256
+Problem size = 1024 Final Sum Sequential = 5.2480000000000000000e+05 Final Sum GPU = 5.2480000000000000000e+05 Initializing Arrays : Wall Clock = 0 second 31 micro Preparing GPU/OpenCL : Wall Clock = 0 second 139102 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 80 micro Time for Sequential Sum computing : Wall Clock = 0 second 8 micro
+Valid pass : Trial = 3 ; Array size = 1024 ; WorkGroup size = 256
+ 20161213   18:38:03      0    67    38  3004   745
+ 20161213   18:38:03      1    14    32   324   324
+Problem size = 1024 Final Sum Sequential = 5.2480000000000000000e+05 Final Sum GPU = 5.2480000000000000000e+05 Initializing Arrays : Wall Clock = 0 second 30 micro Preparing GPU/OpenCL : Wall Clock = 0 second 137908 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 80 micro Time for Sequential Sum computing : Wall Clock = 0 second 8 micro
+Valid pass : Trial = 4 ; Array size = 1024 ; WorkGroup size = 256
+Problem size = 1024 Final Sum Sequential = 5.2480000000000000000e+05 Final Sum GPU = 5.2480000000000000000e+05 Initializing Arrays : Wall Clock = 0 second 30 micro Preparing GPU/OpenCL : Wall Clock = 0 second 138723 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 46 micro Time for Sequential Sum computing : Wall Clock = 0 second 3 micro
+Valid pass : Trial = 5 ; Array size = 1024 ; WorkGroup size = 256
+Problem size = 1024 Final Sum Sequential = 5.2480000000000000000e+05 Final Sum GPU = 5.2480000000000000000e+05 Initializing Arrays : Wall Clock = 0 second 31 micro Preparing GPU/OpenCL : Wall Clock = 0 second 137443 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 48 micro Time for Sequential Sum computing : Wall Clock = 0 second 3 micro
+Valid pass : Trial = 6 ; Array size = 1024 ; WorkGroup size = 256
+Problem size = 1024 Final Sum Sequential = 5.2480000000000000000e+05 Final Sum GPU = 5.2480000000000000000e+05 Initializing Arrays : Wall Clock = 0 second 31 micro Preparing GPU/OpenCL : Wall Clock = 0 second 137841 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 56 micro Time for Sequential Sum computing : Wall Clock = 0 second 3 micro
+Valid pass : Trial = 7 ; Array size = 1024 ; WorkGroup size = 256
+ 20161213   18:38:04      0    67    38  3004   745
+ 20161213   18:38:04      1    13    33   324   324
+Problem size = 1024 Final Sum Sequential = 5.2480000000000000000e+05 Final Sum GPU = 5.2480000000000000000e+05 Initializing Arrays : Wall Clock = 0 second 30 micro Preparing GPU/OpenCL : Wall Clock = 0 second 137161 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 71 micro Time for Sequential Sum computing : Wall Clock = 0 second 3 micro
+Valid pass : Trial = 8 ; Array size = 1024 ; WorkGroup size = 256
+Problem size = 1024 Final Sum Sequential = 5.2480000000000000000e+05 Final Sum GPU = 5.2480000000000000000e+05 Initializing Arrays : Wall Clock = 0 second 31 micro Preparing GPU/OpenCL : Wall Clock = 0 second 139657 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 56 micro Time for Sequential Sum computing : Wall Clock = 0 second 3 micro
+Valid pass : Trial = 9 ; Array size = 1024 ; WorkGroup size = 256
+Problem size = 1024 Final Sum Sequential = 5.2480000000000000000e+05 Final Sum GPU = 5.2480000000000000000e+05 Initializing Arrays : Wall Clock = 0 second 30 micro Preparing GPU/OpenCL : Wall Clock = 0 second 136773 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 56 micro Time for Sequential Sum computing : Wall Clock = 0 second 3 micro
+Valid pass : Trial = 10 ; Array size = 1024 ; WorkGroup size = 256
+Problem size = 1024 Final Sum Sequential = 5.2480000000000000000e+05 Final Sum GPU = 5.2480000000000000000e+05 Initializing Arrays : Wall Clock = 0 second 30 micro Preparing GPU/OpenCL : Wall Clock = 0 second 142831 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 49 micro Time for Sequential Sum computing : Wall Clock = 0 second 3 micro
+Valid pass : Trial = 0 ; Array size = 1024 ; WorkGroup size = 1024
+Problem size = 1024 Final Sum Sequential = 5.2480000000000000000e+05 Final Sum GPU = 5.2480000000000000000e+05 Initializing Arrays : Wall Clock = 0 second 36 micro Preparing GPU/OpenCL : Wall Clock = 0 second 134595 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 83 micro Time for Sequential Sum computing : Wall Clock = 0 second 8 micro
+Valid pass : Trial = 1 ; Array size = 1024 ; WorkGroup size = 1024
+ 20161213   18:38:05      0    67    38  3004   745
+ 20161213   18:38:05      1    13    32   324   324
+Problem size = 1024 Final Sum Sequential = 5.2480000000000000000e+05 Final Sum GPU = 5.2480000000000000000e+05 Initializing Arrays : Wall Clock = 0 second 30 micro Preparing GPU/OpenCL : Wall Clock = 0 second 143577 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 60 micro Time for Sequential Sum computing : Wall Clock = 0 second 3 micro
+Valid pass : Trial = 2 ; Array size = 1024 ; WorkGroup size = 1024
+Problem size = 1024 Final Sum Sequential = 5.2480000000000000000e+05 Final Sum GPU = 5.2480000000000000000e+05 Initializing Arrays : Wall Clock = 0 second 31 micro Preparing GPU/OpenCL : Wall Clock = 0 second 139742 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 59 micro Time for Sequential Sum computing : Wall Clock = 0 second 2 micro
+Valid pass : Trial = 3 ; Array size = 1024 ; WorkGroup size = 1024
+Problem size = 1024 Final Sum Sequential = 5.2480000000000000000e+05 Final Sum GPU = 5.2480000000000000000e+05 Initializing Arrays : Wall Clock = 0 second 30 micro Preparing GPU/OpenCL : Wall Clock = 0 second 136029 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 59 micro Time for Sequential Sum computing : Wall Clock = 0 second 3 micro
+Valid pass : Trial = 4 ; Array size = 1024 ; WorkGroup size = 1024
+Problem size = 1024 Final Sum Sequential = 5.2480000000000000000e+05 Final Sum GPU = 5.2480000000000000000e+05 Initializing Arrays : Wall Clock = 0 second 31 micro Preparing GPU/OpenCL : Wall Clock = 0 second 134500 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 60 micro Time for Sequential Sum computing : Wall Clock = 0 second 3 micro
+Valid pass : Trial = 5 ; Array size = 1024 ; WorkGroup size = 1024
+Problem size = 1024 Final Sum Sequential = 5.2480000000000000000e+05 Final Sum GPU = 5.2480000000000000000e+05 Initializing Arrays : Wall Clock = 0 second 30 micro Preparing GPU/OpenCL : Wall Clock = 0 second 138225 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 52 micro Time for Sequential Sum computing : Wall Clock = 0 second 3 micro
+Valid pass : Trial = 6 ; Array size = 1024 ; WorkGroup size = 1024
+ 20161213   18:38:06      0    67    39  3004   745
+ 20161213   18:38:06      1    13    32   324   324
+Problem size = 1024 Final Sum Sequential = 5.2480000000000000000e+05 Final Sum GPU = 5.2480000000000000000e+05 Initializing Arrays : Wall Clock = 0 second 30 micro Preparing GPU/OpenCL : Wall Clock = 0 second 139240 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 59 micro Time for Sequential Sum computing : Wall Clock = 0 second 3 micro
+Valid pass : Trial = 7 ; Array size = 1024 ; WorkGroup size = 1024
+Problem size = 1024 Final Sum Sequential = 5.2480000000000000000e+05 Final Sum GPU = 5.2480000000000000000e+05 Initializing Arrays : Wall Clock = 0 second 30 micro Preparing GPU/OpenCL : Wall Clock = 0 second 140820 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 49 micro Time for Sequential Sum computing : Wall Clock = 0 second 3 micro
+Valid pass : Trial = 8 ; Array size = 1024 ; WorkGroup size = 1024
+Problem size = 1024 Final Sum Sequential = 5.2480000000000000000e+05 Final Sum GPU = 5.2480000000000000000e+05 Initializing Arrays : Wall Clock = 0 second 30 micro Preparing GPU/OpenCL : Wall Clock = 0 second 138049 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 48 micro Time for Sequential Sum computing : Wall Clock = 0 second 2 micro
+Valid pass : Trial = 9 ; Array size = 1024 ; WorkGroup size = 1024
+Problem size = 1024 Final Sum Sequential = 5.2480000000000000000e+05 Final Sum GPU = 5.2480000000000000000e+05 Initializing Arrays : Wall Clock = 0 second 42 micro Preparing GPU/OpenCL : Wall Clock = 0 second 135696 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 60 micro Time for Sequential Sum computing : Wall Clock = 0 second 3 micro
+Valid pass : Trial = 10 ; Array size = 1024 ; WorkGroup size = 1024
+Problem size = 10240 Final Sum Sequential = 5.2433920000000000000e+07 Final Sum GPU = 5.2433920000000000000e+07 Initializing Arrays : Wall Clock = 0 second 66 micro Preparing GPU/OpenCL : Wall Clock = 0 second 138047 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 52 micro Time for Sequential Sum computing : Wall Clock = 0 second 29 micro
+Valid pass : Trial = 0 ; Array size = 10240 ; WorkGroup size = 16
+ 20161213   18:38:07      0    67    39  3004   745
+ 20161213   18:38:07      1    14    33   324   324
+Problem size = 10240 Final Sum Sequential = 5.2433920000000000000e+07 Final Sum GPU = 5.2433920000000000000e+07 Initializing Arrays : Wall Clock = 0 second 64 micro Preparing GPU/OpenCL : Wall Clock = 0 second 140746 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 63 micro Time for Sequential Sum computing : Wall Clock = 0 second 35 micro
+Valid pass : Trial = 1 ; Array size = 10240 ; WorkGroup size = 16
+Problem size = 10240 Final Sum Sequential = 5.2433920000000000000e+07 Final Sum GPU = 5.2433920000000000000e+07 Initializing Arrays : Wall Clock = 0 second 66 micro Preparing GPU/OpenCL : Wall Clock = 0 second 136659 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 52 micro Time for Sequential Sum computing : Wall Clock = 0 second 30 micro
+Valid pass : Trial = 2 ; Array size = 10240 ; WorkGroup size = 16
+Problem size = 10240 Final Sum Sequential = 5.2433920000000000000e+07 Final Sum GPU = 5.2433920000000000000e+07 Initializing Arrays : Wall Clock = 0 second 64 micro Preparing GPU/OpenCL : Wall Clock = 0 second 139944 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 64 micro Time for Sequential Sum computing : Wall Clock = 0 second 28 micro
+Valid pass : Trial = 3 ; Array size = 10240 ; WorkGroup size = 16
+Problem size = 10240 Final Sum Sequential = 5.2433920000000000000e+07 Final Sum GPU = 5.2433920000000000000e+07 Initializing Arrays : Wall Clock = 0 second 67 micro Preparing GPU/OpenCL : Wall Clock = 0 second 139149 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 62 micro Time for Sequential Sum computing : Wall Clock = 0 second 29 micro
+Valid pass : Trial = 4 ; Array size = 10240 ; WorkGroup size = 16
+Problem size = 10240 Final Sum Sequential = 5.2433920000000000000e+07 Final Sum GPU = 5.2433920000000000000e+07 Initializing Arrays : Wall Clock = 0 second 65 micro Preparing GPU/OpenCL : Wall Clock = 0 second 138792 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 54 micro Time for Sequential Sum computing : Wall Clock = 0 second 28 micro
+Valid pass : Trial = 5 ; Array size = 10240 ; WorkGroup size = 16
+ 20161213   18:38:08      0    67    39  3004   745
+ 20161213   18:38:08      1    13    33   324   324
+Problem size = 10240 Final Sum Sequential = 5.2433920000000000000e+07 Final Sum GPU = 5.2433920000000000000e+07 Initializing Arrays : Wall Clock = 0 second 65 micro Preparing GPU/OpenCL : Wall Clock = 0 second 141295 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 53 micro Time for Sequential Sum computing : Wall Clock = 0 second 28 micro
+Valid pass : Trial = 6 ; Array size = 10240 ; WorkGroup size = 16
+Problem size = 10240 Final Sum Sequential = 5.2433920000000000000e+07 Final Sum GPU = 5.2433920000000000000e+07 Initializing Arrays : Wall Clock = 0 second 70 micro Preparing GPU/OpenCL : Wall Clock = 0 second 136725 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 75 micro Time for Sequential Sum computing : Wall Clock = 0 second 28 micro
+Valid pass : Trial = 7 ; Array size = 10240 ; WorkGroup size = 16
+Problem size = 10240 Final Sum Sequential = 5.2433920000000000000e+07 Final Sum GPU = 5.2433920000000000000e+07 Initializing Arrays : Wall Clock = 0 second 65 micro Preparing GPU/OpenCL : Wall Clock = 0 second 139633 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 63 micro Time for Sequential Sum computing : Wall Clock = 0 second 28 micro
+Valid pass : Trial = 8 ; Array size = 10240 ; WorkGroup size = 16
+Problem size = 10240 Final Sum Sequential = 5.2433920000000000000e+07 Final Sum GPU = 5.2433920000000000000e+07 Initializing Arrays : Wall Clock = 0 second 65 micro Preparing GPU/OpenCL : Wall Clock = 0 second 136019 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 90 micro Time for Sequential Sum computing : Wall Clock = 0 second 77 micro
+Valid pass : Trial = 9 ; Array size = 10240 ; WorkGroup size = 16
+Problem size = 10240 Final Sum Sequential = 5.2433920000000000000e+07 Final Sum GPU = 5.2433920000000000000e+07 Initializing Arrays : Wall Clock = 0 second 65 micro Preparing GPU/OpenCL : Wall Clock = 0 second 134670 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 62 micro Time for Sequential Sum computing : Wall Clock = 0 second 28 micro
+Valid pass : Trial = 10 ; Array size = 10240 ; WorkGroup size = 16
+ 20161213   18:38:09      0    67    39  3004   745
+ 20161213   18:38:09      1    13    33   324   324
+Problem size = 10240 Final Sum Sequential = 5.2433920000000000000e+07 Final Sum GPU = 5.2433920000000000000e+07 Initializing Arrays : Wall Clock = 0 second 74 micro Preparing GPU/OpenCL : Wall Clock = 0 second 139369 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 50 micro Time for Sequential Sum computing : Wall Clock = 0 second 29 micro
+Valid pass : Trial = 0 ; Array size = 10240 ; WorkGroup size = 32
+Problem size = 10240 Final Sum Sequential = 5.2433920000000000000e+07 Final Sum GPU = 5.2433920000000000000e+07 Initializing Arrays : Wall Clock = 0 second 68 micro Preparing GPU/OpenCL : Wall Clock = 0 second 138550 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 60 micro Time for Sequential Sum computing : Wall Clock = 0 second 28 micro
+Valid pass : Trial = 1 ; Array size = 10240 ; WorkGroup size = 32
+Problem size = 10240 Final Sum Sequential = 5.2433920000000000000e+07 Final Sum GPU = 5.2433920000000000000e+07 Initializing Arrays : Wall Clock = 0 second 64 micro Preparing GPU/OpenCL : Wall Clock = 0 second 137885 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 66 micro Time for Sequential Sum computing : Wall Clock = 0 second 28 micro
+Valid pass : Trial = 2 ; Array size = 10240 ; WorkGroup size = 32
+Problem size = 10240 Final Sum Sequential = 5.2433920000000000000e+07 Final Sum GPU = 5.2433920000000000000e+07 Initializing Arrays : Wall Clock = 0 second 63 micro Preparing GPU/OpenCL : Wall Clock = 0 second 136046 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 86 micro Time for Sequential Sum computing : Wall Clock = 0 second 77 micro
+Valid pass : Trial = 3 ; Array size = 10240 ; WorkGroup size = 32
+ 20161213   18:38:10      0    67    39  3004   745
+ 20161213   18:38:10      1    14    33   324   324
+Problem size = 10240 Final Sum Sequential = 5.2433920000000000000e+07 Final Sum GPU = 5.2433920000000000000e+07 Initializing Arrays : Wall Clock = 0 second 63 micro Preparing GPU/OpenCL : Wall Clock = 0 second 140169 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 50 micro Time for Sequential Sum computing : Wall Clock = 0 second 28 micro
+Valid pass : Trial = 4 ; Array size = 10240 ; WorkGroup size = 32
+Problem size = 10240 Final Sum Sequential = 5.2433920000000000000e+07 Final Sum GPU = 5.2433920000000000000e+07 Initializing Arrays : Wall Clock = 0 second 64 micro Preparing GPU/OpenCL : Wall Clock = 0 second 140405 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 50 micro Time for Sequential Sum computing : Wall Clock = 0 second 28 micro
+Valid pass : Trial = 5 ; Array size = 10240 ; WorkGroup size = 32
+Problem size = 10240 Final Sum Sequential = 5.2433920000000000000e+07 Final Sum GPU = 5.2433920000000000000e+07 Initializing Arrays : Wall Clock = 0 second 63 micro Preparing GPU/OpenCL : Wall Clock = 0 second 137477 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 63 micro Time for Sequential Sum computing : Wall Clock = 0 second 28 micro
+Valid pass : Trial = 6 ; Array size = 10240 ; WorkGroup size = 32
+Problem size = 10240 Final Sum Sequential = 5.2433920000000000000e+07 Final Sum GPU = 5.2433920000000000000e+07 Initializing Arrays : Wall Clock = 0 second 63 micro Preparing GPU/OpenCL : Wall Clock = 0 second 137603 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 62 micro Time for Sequential Sum computing : Wall Clock = 0 second 28 micro
+Valid pass : Trial = 7 ; Array size = 10240 ; WorkGroup size = 32
+Problem size = 10240 Final Sum Sequential = 5.2433920000000000000e+07 Final Sum GPU = 5.2433920000000000000e+07 Initializing Arrays : Wall Clock = 0 second 64 micro Preparing GPU/OpenCL : Wall Clock = 0 second 137693 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 63 micro Time for Sequential Sum computing : Wall Clock = 0 second 28 micro
+Valid pass : Trial = 8 ; Array size = 10240 ; WorkGroup size = 32
+ 20161213   18:38:11      0    67    39  3004   745
+ 20161213   18:38:11      1    14    33   324   324
+Problem size = 10240 Final Sum Sequential = 5.2433920000000000000e+07 Final Sum GPU = 5.2433920000000000000e+07 Initializing Arrays : Wall Clock = 0 second 64 micro Preparing GPU/OpenCL : Wall Clock = 0 second 140460 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 50 micro Time for Sequential Sum computing : Wall Clock = 0 second 28 micro
+Valid pass : Trial = 9 ; Array size = 10240 ; WorkGroup size = 32
+Problem size = 10240 Final Sum Sequential = 5.2433920000000000000e+07 Final Sum GPU = 5.2433920000000000000e+07 Initializing Arrays : Wall Clock = 0 second 64 micro Preparing GPU/OpenCL : Wall Clock = 0 second 138035 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 61 micro Time for Sequential Sum computing : Wall Clock = 0 second 29 micro
+Valid pass : Trial = 10 ; Array size = 10240 ; WorkGroup size = 32
+Problem size = 10240 Final Sum Sequential = 5.2433920000000000000e+07 Final Sum GPU = 5.2433920000000000000e+07 Initializing Arrays : Wall Clock = 0 second 76 micro Preparing GPU/OpenCL : Wall Clock = 0 second 137985 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 58 micro Time for Sequential Sum computing : Wall Clock = 0 second 28 micro
+Valid pass : Trial = 0 ; Array size = 10240 ; WorkGroup size = 64
+Problem size = 10240 Final Sum Sequential = 5.2433920000000000000e+07 Final Sum GPU = 5.2433920000000000000e+07 Initializing Arrays : Wall Clock = 0 second 63 micro Preparing GPU/OpenCL : Wall Clock = 0 second 139968 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 48 micro Time for Sequential Sum computing : Wall Clock = 0 second 28 micro
+Valid pass : Trial = 1 ; Array size = 10240 ; WorkGroup size = 64
+Problem size = 10240 Final Sum Sequential = 5.2433920000000000000e+07 Final Sum GPU = 5.2433920000000000000e+07 Initializing Arrays : Wall Clock = 0 second 63 micro Preparing GPU/OpenCL : Wall Clock = 0 second 139131 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 82 micro Time for Sequential Sum computing : Wall Clock = 0 second 77 micro
+Valid pass : Trial = 2 ; Array size = 10240 ; WorkGroup size = 64
+ 20161213   18:38:12      0    67    39  3004   745
+ 20161213   18:38:12      1    14    33   324   324
+Problem size = 10240 Final Sum Sequential = 5.2433920000000000000e+07 Final Sum GPU = 5.2433920000000000000e+07 Initializing Arrays : Wall Clock = 0 second 70 micro Preparing GPU/OpenCL : Wall Clock = 0 second 135503 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 59 micro Time for Sequential Sum computing : Wall Clock = 0 second 28 micro
+Valid pass : Trial = 3 ; Array size = 10240 ; WorkGroup size = 64
+Problem size = 10240 Final Sum Sequential = 5.2433920000000000000e+07 Final Sum GPU = 5.2433920000000000000e+07 Initializing Arrays : Wall Clock = 0 second 62 micro Preparing GPU/OpenCL : Wall Clock = 0 second 137970 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 78 micro Time for Sequential Sum computing : Wall Clock = 0 second 28 micro
+Valid pass : Trial = 4 ; Array size = 10240 ; WorkGroup size = 64
+Problem size = 10240 Final Sum Sequential = 5.2433920000000000000e+07 Final Sum GPU = 5.2433920000000000000e+07 Initializing Arrays : Wall Clock = 0 second 63 micro Preparing GPU/OpenCL : Wall Clock = 0 second 138846 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 49 micro Time for Sequential Sum computing : Wall Clock = 0 second 28 micro
+Valid pass : Trial = 5 ; Array size = 10240 ; WorkGroup size = 64
+Problem size = 10240 Final Sum Sequential = 5.2433920000000000000e+07 Final Sum GPU = 5.2433920000000000000e+07 Initializing Arrays : Wall Clock = 0 second 74 micro Preparing GPU/OpenCL : Wall Clock = 0 second 145747 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 59 micro Time for Sequential Sum computing : Wall Clock = 0 second 28 micro
+Valid pass : Trial = 6 ; Array size = 10240 ; WorkGroup size = 64
+Problem size = 10240 Final Sum Sequential = 5.2433920000000000000e+07 Final Sum GPU = 5.2433920000000000000e+07 Initializing Arrays : Wall Clock = 0 second 65 micro Preparing GPU/OpenCL : Wall Clock = 0 second 136302 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 60 micro Time for Sequential Sum computing : Wall Clock = 0 second 28 micro
+Valid pass : Trial = 7 ; Array size = 10240 ; WorkGroup size = 64
+ 20161213   18:38:13      0    67    39  3004   745
+ 20161213   18:38:13      1    14    33   324   324
+Problem size = 10240 Final Sum Sequential = 5.2433920000000000000e+07 Final Sum GPU = 5.2433920000000000000e+07 Initializing Arrays : Wall Clock = 0 second 63 micro Preparing GPU/OpenCL : Wall Clock = 0 second 139063 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 48 micro Time for Sequential Sum computing : Wall Clock = 0 second 28 micro
+Valid pass : Trial = 8 ; Array size = 10240 ; WorkGroup size = 64
+Problem size = 10240 Final Sum Sequential = 5.2433920000000000000e+07 Final Sum GPU = 5.2433920000000000000e+07 Initializing Arrays : Wall Clock = 0 second 62 micro Preparing GPU/OpenCL : Wall Clock = 0 second 137438 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 58 micro Time for Sequential Sum computing : Wall Clock = 0 second 29 micro
+Valid pass : Trial = 9 ; Array size = 10240 ; WorkGroup size = 64
+Problem size = 10240 Final Sum Sequential = 5.2433920000000000000e+07 Final Sum GPU = 5.2433920000000000000e+07 Initializing Arrays : Wall Clock = 0 second 63 micro Preparing GPU/OpenCL : Wall Clock = 0 second 139331 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 60 micro Time for Sequential Sum computing : Wall Clock = 0 second 28 micro
+Valid pass : Trial = 10 ; Array size = 10240 ; WorkGroup size = 64
+Problem size = 10240 Final Sum Sequential = 5.2433920000000000000e+07 Final Sum GPU = 5.2433920000000000000e+07 Initializing Arrays : Wall Clock = 0 second 63 micro Preparing GPU/OpenCL : Wall Clock = 0 second 140038 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 83 micro Time for Sequential Sum computing : Wall Clock = 0 second 63 micro
+Valid pass : Trial = 0 ; Array size = 10240 ; WorkGroup size = 128
+Problem size = 10240 Final Sum Sequential = 5.2433920000000000000e+07 Final Sum GPU = 5.2433920000000000000e+07 Initializing Arrays : Wall Clock = 0 second 62 micro Preparing GPU/OpenCL : Wall Clock = 0 second 139282 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 48 micro Time for Sequential Sum computing : Wall Clock = 0 second 28 micro
+Valid pass : Trial = 1 ; Array size = 10240 ; WorkGroup size = 128
+ 20161213   18:38:14      0    67    39  3004   745
+ 20161213   18:38:14      1    14    32   324   324
+Problem size = 10240 Final Sum Sequential = 5.2433920000000000000e+07 Final Sum GPU = 5.2433920000000000000e+07 Initializing Arrays : Wall Clock = 0 second 67 micro Preparing GPU/OpenCL : Wall Clock = 0 second 138995 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 54 micro Time for Sequential Sum computing : Wall Clock = 0 second 28 micro
+Valid pass : Trial = 2 ; Array size = 10240 ; WorkGroup size = 128
+Problem size = 10240 Final Sum Sequential = 5.2433920000000000000e+07 Final Sum GPU = 5.2433920000000000000e+07 Initializing Arrays : Wall Clock = 0 second 63 micro Preparing GPU/OpenCL : Wall Clock = 0 second 139138 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 84 micro Time for Sequential Sum computing : Wall Clock = 0 second 77 micro
+Valid pass : Trial = 3 ; Array size = 10240 ; WorkGroup size = 128
+Problem size = 10240 Final Sum Sequential = 5.2433920000000000000e+07 Final Sum GPU = 5.2433920000000000000e+07 Initializing Arrays : Wall Clock = 0 second 62 micro Preparing GPU/OpenCL : Wall Clock = 0 second 138954 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 60 micro Time for Sequential Sum computing : Wall Clock = 0 second 28 micro
+Valid pass : Trial = 4 ; Array size = 10240 ; WorkGroup size = 128
+Problem size = 10240 Final Sum Sequential = 5.2433920000000000000e+07 Final Sum GPU = 5.2433920000000000000e+07 Initializing Arrays : Wall Clock = 0 second 63 micro Preparing GPU/OpenCL : Wall Clock = 0 second 138575 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 47 micro Time for Sequential Sum computing : Wall Clock = 0 second 28 micro
+Valid pass : Trial = 5 ; Array size = 10240 ; WorkGroup size = 128
+Problem size = 10240 Final Sum Sequential = 5.2433920000000000000e+07 Final Sum GPU = 5.2433920000000000000e+07 Initializing Arrays : Wall Clock = 0 second 62 micro Preparing GPU/OpenCL : Wall Clock = 0 second 138290 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 47 micro Time for Sequential Sum computing : Wall Clock = 0 second 28 micro
+Valid pass : Trial = 6 ; Array size = 10240 ; WorkGroup size = 128
+#Date       Time        gpu   pwr  temp  mclk  pclk
+#YYYYMMDD   HH:MM:SS    Idx     W     C   MHz   MHz
+ 20161213   18:38:15      0    67    39  3004   745
+ 20161213   18:38:15      1    13    33   324   324
+Problem size = 10240 Final Sum Sequential = 5.2433920000000000000e+07 Final Sum GPU = 5.2433920000000000000e+07 Initializing Arrays : Wall Clock = 0 second 68 micro Preparing GPU/OpenCL : Wall Clock = 0 second 137767 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 59 micro Time for Sequential Sum computing : Wall Clock = 0 second 28 micro
+Valid pass : Trial = 7 ; Array size = 10240 ; WorkGroup size = 128
+Problem size = 10240 Final Sum Sequential = 5.2433920000000000000e+07 Final Sum GPU = 5.2433920000000000000e+07 Initializing Arrays : Wall Clock = 0 second 63 micro Preparing GPU/OpenCL : Wall Clock = 0 second 132625 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 47 micro Time for Sequential Sum computing : Wall Clock = 0 second 29 micro
+Valid pass : Trial = 8 ; Array size = 10240 ; WorkGroup size = 128
+Problem size = 10240 Final Sum Sequential = 5.2433920000000000000e+07 Final Sum GPU = 5.2433920000000000000e+07 Initializing Arrays : Wall Clock = 0 second 63 micro Preparing GPU/OpenCL : Wall Clock = 0 second 138992 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 47 micro Time for Sequential Sum computing : Wall Clock = 0 second 29 micro
+Valid pass : Trial = 9 ; Array size = 10240 ; WorkGroup size = 128
+Problem size = 10240 Final Sum Sequential = 5.2433920000000000000e+07 Final Sum GPU = 5.2433920000000000000e+07 Initializing Arrays : Wall Clock = 0 second 63 micro Preparing GPU/OpenCL : Wall Clock = 0 second 137332 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 76 micro Time for Sequential Sum computing : Wall Clock = 0 second 28 micro
+Valid pass : Trial = 10 ; Array size = 10240 ; WorkGroup size = 128
+ 20161213   18:38:16      0    67    39  3004   745
+ 20161213   18:38:16      1    14    33   324   324
+Problem size = 10240 Final Sum Sequential = 5.2433920000000000000e+07 Final Sum GPU = 5.2433920000000000000e+07 Initializing Arrays : Wall Clock = 0 second 63 micro Preparing GPU/OpenCL : Wall Clock = 0 second 138880 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 47 micro Time for Sequential Sum computing : Wall Clock = 0 second 28 micro
+Valid pass : Trial = 0 ; Array size = 10240 ; WorkGroup size = 256
+Problem size = 10240 Final Sum Sequential = 5.2433920000000000000e+07 Final Sum GPU = 5.2433920000000000000e+07 Initializing Arrays : Wall Clock = 0 second 63 micro Preparing GPU/OpenCL : Wall Clock = 0 second 138082 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 59 micro Time for Sequential Sum computing : Wall Clock = 0 second 28 micro
+Valid pass : Trial = 1 ; Array size = 10240 ; WorkGroup size = 256
+Problem size = 10240 Final Sum Sequential = 5.2433920000000000000e+07 Final Sum GPU = 5.2433920000000000000e+07 Initializing Arrays : Wall Clock = 0 second 63 micro Preparing GPU/OpenCL : Wall Clock = 0 second 138898 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 59 micro Time for Sequential Sum computing : Wall Clock = 0 second 29 micro
+Valid pass : Trial = 2 ; Array size = 10240 ; WorkGroup size = 256
+Problem size = 10240 Final Sum Sequential = 5.2433920000000000000e+07 Final Sum GPU = 5.2433920000000000000e+07 Initializing Arrays : Wall Clock = 0 second 64 micro Preparing GPU/OpenCL : Wall Clock = 0 second 139140 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 82 micro Time for Sequential Sum computing : Wall Clock = 0 second 79 micro
+Valid pass : Trial = 3 ; Array size = 10240 ; WorkGroup size = 256
+Problem size = 10240 Final Sum Sequential = 5.2433920000000000000e+07 Final Sum GPU = 5.2433920000000000000e+07 Initializing Arrays : Wall Clock = 0 second 62 micro Preparing GPU/OpenCL : Wall Clock = 0 second 140615 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 57 micro Time for Sequential Sum computing : Wall Clock = 0 second 33 micro
+Valid pass : Trial = 4 ; Array size = 10240 ; WorkGroup size = 256
+ 20161213   18:38:17      0    67    39  3004   745
+ 20161213   18:38:17      1    13    33   324   324
+Problem size = 10240 Final Sum Sequential = 5.2433920000000000000e+07 Final Sum GPU = 5.2433920000000000000e+07 Initializing Arrays : Wall Clock = 0 second 63 micro Preparing GPU/OpenCL : Wall Clock = 0 second 140632 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 58 micro Time for Sequential Sum computing : Wall Clock = 0 second 28 micro
+Valid pass : Trial = 5 ; Array size = 10240 ; WorkGroup size = 256
+Problem size = 10240 Final Sum Sequential = 5.2433920000000000000e+07 Final Sum GPU = 5.2433920000000000000e+07 Initializing Arrays : Wall Clock = 0 second 66 micro Preparing GPU/OpenCL : Wall Clock = 0 second 134978 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 75 micro Time for Sequential Sum computing : Wall Clock = 0 second 28 micro
+Valid pass : Trial = 6 ; Array size = 10240 ; WorkGroup size = 256
+Problem size = 10240 Final Sum Sequential = 5.2433920000000000000e+07 Final Sum GPU = 5.2433920000000000000e+07 Initializing Arrays : Wall Clock = 0 second 63 micro Preparing GPU/OpenCL : Wall Clock = 0 second 136840 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 82 micro Time for Sequential Sum computing : Wall Clock = 0 second 87 micro
+Valid pass : Trial = 7 ; Array size = 10240 ; WorkGroup size = 256
+Problem size = 10240 Final Sum Sequential = 5.2433920000000000000e+07 Final Sum GPU = 5.2433920000000000000e+07 Initializing Arrays : Wall Clock = 0 second 63 micro Preparing GPU/OpenCL : Wall Clock = 0 second 146363 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 57 micro Time for Sequential Sum computing : Wall Clock = 0 second 29 micro
+Valid pass : Trial = 8 ; Array size = 10240 ; WorkGroup size = 256
+Problem size = 10240 Final Sum Sequential = 5.2433920000000000000e+07 Final Sum GPU = 5.2433920000000000000e+07 Initializing Arrays : Wall Clock = 0 second 63 micro Preparing GPU/OpenCL : Wall Clock = 0 second 136725 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 57 micro Time for Sequential Sum computing : Wall Clock = 0 second 28 micro
+Valid pass : Trial = 9 ; Array size = 10240 ; WorkGroup size = 256
+ 20161213   18:38:18      0    67    39  3004   745
+ 20161213   18:38:18      1    14    33   324   324
+Problem size = 10240 Final Sum Sequential = 5.2433920000000000000e+07 Final Sum GPU = 5.2433920000000000000e+07 Initializing Arrays : Wall Clock = 0 second 63 micro Preparing GPU/OpenCL : Wall Clock = 0 second 139302 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 47 micro Time for Sequential Sum computing : Wall Clock = 0 second 28 micro
+Valid pass : Trial = 10 ; Array size = 10240 ; WorkGroup size = 256
+Problem size = 10240 Final Sum Sequential = 5.2433920000000000000e+07 Final Sum GPU = 5.2433920000000000000e+07 Initializing Arrays : Wall Clock = 0 second 61 micro Preparing GPU/OpenCL : Wall Clock = 0 second 138850 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 83 micro Time for Sequential Sum computing : Wall Clock = 0 second 77 micro
+Valid pass : Trial = 0 ; Array size = 10240 ; WorkGroup size = 1024
+Problem size = 10240 Final Sum Sequential = 5.2433920000000000000e+07 Final Sum GPU = 5.2433920000000000000e+07 Initializing Arrays : Wall Clock = 0 second 64 micro Preparing GPU/OpenCL : Wall Clock = 0 second 137754 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 94 micro Time for Sequential Sum computing : Wall Clock = 0 second 77 micro
+Valid pass : Trial = 1 ; Array size = 10240 ; WorkGroup size = 1024
+Problem size = 10240 Final Sum Sequential = 5.2433920000000000000e+07 Final Sum GPU = 5.2433920000000000000e+07 Initializing Arrays : Wall Clock = 0 second 90 micro Preparing GPU/OpenCL : Wall Clock = 0 second 139592 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 48 micro Time for Sequential Sum computing : Wall Clock = 0 second 28 micro
+Valid pass : Trial = 2 ; Array size = 10240 ; WorkGroup size = 1024
+Problem size = 10240 Final Sum Sequential = 5.2433920000000000000e+07 Final Sum GPU = 5.2433920000000000000e+07 Initializing Arrays : Wall Clock = 0 second 62 micro Preparing GPU/OpenCL : Wall Clock = 0 second 138968 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 58 micro Time for Sequential Sum computing : Wall Clock = 0 second 29 micro
+Valid pass : Trial = 3 ; Array size = 10240 ; WorkGroup size = 1024
+ 20161213   18:38:19      0    67    39  3004   745
+ 20161213   18:38:19      1    13    33   324   324
+Problem size = 10240 Final Sum Sequential = 5.2433920000000000000e+07 Final Sum GPU = 5.2433920000000000000e+07 Initializing Arrays : Wall Clock = 0 second 73 micro Preparing GPU/OpenCL : Wall Clock = 0 second 140489 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 58 micro Time for Sequential Sum computing : Wall Clock = 0 second 28 micro
+Valid pass : Trial = 4 ; Array size = 10240 ; WorkGroup size = 1024
+Problem size = 10240 Final Sum Sequential = 5.2433920000000000000e+07 Final Sum GPU = 5.2433920000000000000e+07 Initializing Arrays : Wall Clock = 0 second 63 micro Preparing GPU/OpenCL : Wall Clock = 0 second 136459 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 51 micro Time for Sequential Sum computing : Wall Clock = 0 second 28 micro
+Valid pass : Trial = 5 ; Array size = 10240 ; WorkGroup size = 1024
+Problem size = 10240 Final Sum Sequential = 5.2433920000000000000e+07 Final Sum GPU = 5.2433920000000000000e+07 Initializing Arrays : Wall Clock = 0 second 64 micro Preparing GPU/OpenCL : Wall Clock = 0 second 138626 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 60 micro Time for Sequential Sum computing : Wall Clock = 0 second 28 micro
+Valid pass : Trial = 6 ; Array size = 10240 ; WorkGroup size = 1024
+Problem size = 10240 Final Sum Sequential = 5.2433920000000000000e+07 Final Sum GPU = 5.2433920000000000000e+07 Initializing Arrays : Wall Clock = 0 second 67 micro Preparing GPU/OpenCL : Wall Clock = 0 second 136750 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 59 micro Time for Sequential Sum computing : Wall Clock = 0 second 28 micro
+Valid pass : Trial = 7 ; Array size = 10240 ; WorkGroup size = 1024
+Problem size = 10240 Final Sum Sequential = 5.2433920000000000000e+07 Final Sum GPU = 5.2433920000000000000e+07 Initializing Arrays : Wall Clock = 0 second 62 micro Preparing GPU/OpenCL : Wall Clock = 0 second 138447 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 60 micro Time for Sequential Sum computing : Wall Clock = 0 second 28 micro
+Valid pass : Trial = 8 ; Array size = 10240 ; WorkGroup size = 1024
+ 20161213   18:38:20      0    67    39  3004   745
+ 20161213   18:38:20      1    13    33   324   324
+Problem size = 10240 Final Sum Sequential = 5.2433920000000000000e+07 Final Sum GPU = 5.2433920000000000000e+07 Initializing Arrays : Wall Clock = 0 second 62 micro Preparing GPU/OpenCL : Wall Clock = 0 second 140184 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 60 micro Time for Sequential Sum computing : Wall Clock = 0 second 28 micro
+Valid pass : Trial = 9 ; Array size = 10240 ; WorkGroup size = 1024
+Problem size = 10240 Final Sum Sequential = 5.2433920000000000000e+07 Final Sum GPU = 5.2433920000000000000e+07 Initializing Arrays : Wall Clock = 0 second 67 micro Preparing GPU/OpenCL : Wall Clock = 0 second 137823 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 59 micro Time for Sequential Sum computing : Wall Clock = 0 second 28 micro
+Valid pass : Trial = 10 ; Array size = 10240 ; WorkGroup size = 1024
+Problem size = 102400 Final Sum Sequential = 5.2429312000000000000e+09 Final Sum GPU = 5.2429312000000000000e+09 Initializing Arrays : Wall Clock = 0 second 524 micro Preparing GPU/OpenCL : Wall Clock = 0 second 140415 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 120 micro Time for Sequential Sum computing : Wall Clock = 0 second 280 micro
+Valid pass : Trial = 0 ; Array size = 102400 ; WorkGroup size = 16
+Problem size = 102400 Final Sum Sequential = 5.2429312000000000000e+09 Final Sum GPU = 5.2429312000000000000e+09 Initializing Arrays : Wall Clock = 0 second 532 micro Preparing GPU/OpenCL : Wall Clock = 0 second 137774 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 129 micro Time for Sequential Sum computing : Wall Clock = 0 second 280 micro
+Valid pass : Trial = 1 ; Array size = 102400 ; WorkGroup size = 16
+Problem size = 102400 Final Sum Sequential = 5.2429312000000000000e+09 Final Sum GPU = 5.2429312000000000000e+09 Initializing Arrays : Wall Clock = 0 second 529 micro Preparing GPU/OpenCL : Wall Clock = 0 second 137734 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 130 micro Time for Sequential Sum computing : Wall Clock = 0 second 281 micro
+ 20161213   18:38:21      0    67    39  3004   745
+ 20161213   18:38:21      1    14    33   324   324
+Valid pass : Trial = 2 ; Array size = 102400 ; WorkGroup size = 16
+Problem size = 102400 Final Sum Sequential = 5.2429312000000000000e+09 Final Sum GPU = 5.2429312000000000000e+09 Initializing Arrays : Wall Clock = 0 second 514 micro Preparing GPU/OpenCL : Wall Clock = 0 second 134942 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 179 micro Time for Sequential Sum computing : Wall Clock = 0 second 373 micro
+Valid pass : Trial = 3 ; Array size = 102400 ; WorkGroup size = 16
+Problem size = 102400 Final Sum Sequential = 5.2429312000000000000e+09 Final Sum GPU = 5.2429312000000000000e+09 Initializing Arrays : Wall Clock = 0 second 529 micro Preparing GPU/OpenCL : Wall Clock = 0 second 139905 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 128 micro Time for Sequential Sum computing : Wall Clock = 0 second 280 micro
+Valid pass : Trial = 4 ; Array size = 102400 ; WorkGroup size = 16
+Problem size = 102400 Final Sum Sequential = 5.2429312000000000000e+09 Final Sum GPU = 5.2429312000000000000e+09 Initializing Arrays : Wall Clock = 0 second 479 micro Preparing GPU/OpenCL : Wall Clock = 0 second 140604 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 131 micro Time for Sequential Sum computing : Wall Clock = 0 second 281 micro
+Valid pass : Trial = 5 ; Array size = 102400 ; WorkGroup size = 16
+Problem size = 102400 Final Sum Sequential = 5.2429312000000000000e+09 Final Sum GPU = 5.2429312000000000000e+09 Initializing Arrays : Wall Clock = 0 second 516 micro Preparing GPU/OpenCL : Wall Clock = 0 second 138406 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 137 micro Time for Sequential Sum computing : Wall Clock = 0 second 280 micro
+Valid pass : Trial = 6 ; Array size = 102400 ; WorkGroup size = 16
+ 20161213   18:38:22      0    67    39  3004   745
+ 20161213   18:38:22      1    13    33   324   324
+Problem size = 102400 Final Sum Sequential = 5.2429312000000000000e+09 Final Sum GPU = 5.2429312000000000000e+09 Initializing Arrays : Wall Clock = 0 second 492 micro Preparing GPU/OpenCL : Wall Clock = 0 second 136703 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 119 micro Time for Sequential Sum computing : Wall Clock = 0 second 280 micro
+Valid pass : Trial = 7 ; Array size = 102400 ; WorkGroup size = 16
+Problem size = 102400 Final Sum Sequential = 5.2429312000000000000e+09 Final Sum GPU = 5.2429312000000000000e+09 Initializing Arrays : Wall Clock = 0 second 518 micro Preparing GPU/OpenCL : Wall Clock = 0 second 140706 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 130 micro Time for Sequential Sum computing : Wall Clock = 0 second 280 micro
+Valid pass : Trial = 8 ; Array size = 102400 ; WorkGroup size = 16
+Problem size = 102400 Final Sum Sequential = 5.2429312000000000000e+09 Final Sum GPU = 5.2429312000000000000e+09 Initializing Arrays : Wall Clock = 0 second 485 micro Preparing GPU/OpenCL : Wall Clock = 0 second 143337 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 129 micro Time for Sequential Sum computing : Wall Clock = 0 second 279 micro
+Valid pass : Trial = 9 ; Array size = 102400 ; WorkGroup size = 16
+Problem size = 102400 Final Sum Sequential = 5.2429312000000000000e+09 Final Sum GPU = 5.2429312000000000000e+09 Initializing Arrays : Wall Clock = 0 second 536 micro Preparing GPU/OpenCL : Wall Clock = 0 second 148168 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 118 micro Time for Sequential Sum computing : Wall Clock = 0 second 286 micro
+Valid pass : Trial = 10 ; Array size = 102400 ; WorkGroup size = 16
+Problem size = 102400 Final Sum Sequential = 5.2429312000000000000e+09 Final Sum GPU = 5.2429312000000000000e+09 Initializing Arrays : Wall Clock = 0 second 514 micro Preparing GPU/OpenCL : Wall Clock = 0 second 139237 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 85 micro Time for Sequential Sum computing : Wall Clock = 0 second 286 micro
+Valid pass : Trial = 0 ; Array size = 102400 ; WorkGroup size = 32
+ 20161213   18:38:23      0    67    39  3004   745
+ 20161213   18:38:23      1    13    32   324   324
+Problem size = 102400 Final Sum Sequential = 5.2429312000000000000e+09 Final Sum GPU = 5.2429312000000000000e+09 Initializing Arrays : Wall Clock = 0 second 512 micro Preparing GPU/OpenCL : Wall Clock = 0 second 138766 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 106 micro Time for Sequential Sum computing : Wall Clock = 0 second 281 micro
+Valid pass : Trial = 1 ; Array size = 102400 ; WorkGroup size = 32
+Problem size = 102400 Final Sum Sequential = 5.2429312000000000000e+09 Final Sum GPU = 5.2429312000000000000e+09 Initializing Arrays : Wall Clock = 0 second 513 micro Preparing GPU/OpenCL : Wall Clock = 0 second 139545 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 93 micro Time for Sequential Sum computing : Wall Clock = 0 second 281 micro
+Valid pass : Trial = 2 ; Array size = 102400 ; WorkGroup size = 32
+Problem size = 102400 Final Sum Sequential = 5.2429312000000000000e+09 Final Sum GPU = 5.2429312000000000000e+09 Initializing Arrays : Wall Clock = 0 second 514 micro Preparing GPU/OpenCL : Wall Clock = 0 second 136999 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 94 micro Time for Sequential Sum computing : Wall Clock = 0 second 280 micro
+Valid pass : Trial = 3 ; Array size = 102400 ; WorkGroup size = 32
+Problem size = 102400 Final Sum Sequential = 5.2429312000000000000e+09 Final Sum GPU = 5.2429312000000000000e+09 Initializing Arrays : Wall Clock = 0 second 477 micro Preparing GPU/OpenCL : Wall Clock = 0 second 131510 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 92 micro Time for Sequential Sum computing : Wall Clock = 0 second 281 micro
+Valid pass : Trial = 4 ; Array size = 102400 ; WorkGroup size = 32
+Problem size = 102400 Final Sum Sequential = 5.2429312000000000000e+09 Final Sum GPU = 5.2429312000000000000e+09 Initializing Arrays : Wall Clock = 0 second 507 micro Preparing GPU/OpenCL : Wall Clock = 0 second 139099 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 85 micro Time for Sequential Sum computing : Wall Clock = 0 second 281 micro
+Valid pass : Trial = 5 ; Array size = 102400 ; WorkGroup size = 32
+ 20161213   18:38:24      0    67    39  3004   745
+ 20161213   18:38:24      1    14    33   324   324
+Problem size = 102400 Final Sum Sequential = 5.2429312000000000000e+09 Final Sum GPU = 5.2429312000000000000e+09 Initializing Arrays : Wall Clock = 0 second 492 micro Preparing GPU/OpenCL : Wall Clock = 0 second 139932 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 131 micro Time for Sequential Sum computing : Wall Clock = 0 second 374 micro
+Valid pass : Trial = 6 ; Array size = 102400 ; WorkGroup size = 32
+Problem size = 102400 Final Sum Sequential = 5.2429312000000000000e+09 Final Sum GPU = 5.2429312000000000000e+09 Initializing Arrays : Wall Clock = 0 second 508 micro Preparing GPU/OpenCL : Wall Clock = 0 second 137770 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 92 micro Time for Sequential Sum computing : Wall Clock = 0 second 280 micro
+Valid pass : Trial = 7 ; Array size = 102400 ; WorkGroup size = 32
+Problem size = 102400 Final Sum Sequential = 5.2429312000000000000e+09 Final Sum GPU = 5.2429312000000000000e+09 Initializing Arrays : Wall Clock = 0 second 512 micro Preparing GPU/OpenCL : Wall Clock = 0 second 139153 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 94 micro Time for Sequential Sum computing : Wall Clock = 0 second 280 micro
+Valid pass : Trial = 8 ; Array size = 102400 ; WorkGroup size = 32
+Problem size = 102400 Final Sum Sequential = 5.2429312000000000000e+09 Final Sum GPU = 5.2429312000000000000e+09 Initializing Arrays : Wall Clock = 0 second 513 micro Preparing GPU/OpenCL : Wall Clock = 0 second 138533 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 111 micro Time for Sequential Sum computing : Wall Clock = 0 second 281 micro
+Valid pass : Trial = 9 ; Array size = 102400 ; WorkGroup size = 32
+Problem size = 102400 Final Sum Sequential = 5.2429312000000000000e+09 Final Sum GPU = 5.2429312000000000000e+09 Initializing Arrays : Wall Clock = 0 second 486 micro Preparing GPU/OpenCL : Wall Clock = 0 second 139288 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 105 micro Time for Sequential Sum computing : Wall Clock = 0 second 287 micro
+Valid pass : Trial = 10 ; Array size = 102400 ; WorkGroup size = 32
+ 20161213   18:38:25      0    67    39  3004   745
+ 20161213   18:38:25      1    14    33   324   324
+Problem size = 102400 Final Sum Sequential = 5.2429312000000000000e+09 Final Sum GPU = 5.2429312000000000000e+09 Initializing Arrays : Wall Clock = 0 second 502 micro Preparing GPU/OpenCL : Wall Clock = 0 second 140314 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 97 micro Time for Sequential Sum computing : Wall Clock = 0 second 280 micro
+Valid pass : Trial = 0 ; Array size = 102400 ; WorkGroup size = 64
+Problem size = 102400 Final Sum Sequential = 5.2429312000000000000e+09 Final Sum GPU = 5.2429312000000000000e+09 Initializing Arrays : Wall Clock = 0 second 499 micro Preparing GPU/OpenCL : Wall Clock = 0 second 138857 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 103 micro Time for Sequential Sum computing : Wall Clock = 0 second 376 micro
+Valid pass : Trial = 1 ; Array size = 102400 ; WorkGroup size = 64
+Problem size = 102400 Final Sum Sequential = 5.2429312000000000000e+09 Final Sum GPU = 5.2429312000000000000e+09 Initializing Arrays : Wall Clock = 0 second 468 micro Preparing GPU/OpenCL : Wall Clock = 0 second 138244 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 88 micro Time for Sequential Sum computing : Wall Clock = 0 second 296 micro
+Valid pass : Trial = 2 ; Array size = 102400 ; WorkGroup size = 64
+Problem size = 102400 Final Sum Sequential = 5.2429312000000000000e+09 Final Sum GPU = 5.2429312000000000000e+09 Initializing Arrays : Wall Clock = 0 second 486 micro Preparing GPU/OpenCL : Wall Clock = 0 second 138017 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 68 micro Time for Sequential Sum computing : Wall Clock = 0 second 280 micro
+Valid pass : Trial = 3 ; Array size = 102400 ; WorkGroup size = 64
+ 20161213   18:38:27      0    67    39  3004   745
+ 20161213   18:38:27      1    14    33   324   324
+Problem size = 102400 Final Sum Sequential = 5.2429312000000000000e+09 Final Sum GPU = 5.2429312000000000000e+09 Initializing Arrays : Wall Clock = 0 second 501 micro Preparing GPU/OpenCL : Wall Clock = 0 second 139612 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 88 micro Time for Sequential Sum computing : Wall Clock = 0 second 289 micro
+Valid pass : Trial = 4 ; Array size = 102400 ; WorkGroup size = 64
+Problem size = 102400 Final Sum Sequential = 5.2429312000000000000e+09 Final Sum GPU = 5.2429312000000000000e+09 Initializing Arrays : Wall Clock = 0 second 497 micro Preparing GPU/OpenCL : Wall Clock = 0 second 139612 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 102 micro Time for Sequential Sum computing : Wall Clock = 0 second 373 micro
+Valid pass : Trial = 5 ; Array size = 102400 ; WorkGroup size = 64
+Problem size = 102400 Final Sum Sequential = 5.2429312000000000000e+09 Final Sum GPU = 5.2429312000000000000e+09 Initializing Arrays : Wall Clock = 0 second 471 micro Preparing GPU/OpenCL : Wall Clock = 0 second 137472 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 86 micro Time for Sequential Sum computing : Wall Clock = 0 second 287 micro
+Valid pass : Trial = 6 ; Array size = 102400 ; WorkGroup size = 64
+Problem size = 102400 Final Sum Sequential = 5.2429312000000000000e+09 Final Sum GPU = 5.2429312000000000000e+09 Initializing Arrays : Wall Clock = 0 second 493 micro Preparing GPU/OpenCL : Wall Clock = 0 second 142169 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 69 micro Time for Sequential Sum computing : Wall Clock = 0 second 280 micro
+Valid pass : Trial = 7 ; Array size = 102400 ; WorkGroup size = 64
+Problem size = 102400 Final Sum Sequential = 5.2429312000000000000e+09 Final Sum GPU = 5.2429312000000000000e+09 Initializing Arrays : Wall Clock = 0 second 461 micro Preparing GPU/OpenCL : Wall Clock = 0 second 139756 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 84 micro Time for Sequential Sum computing : Wall Clock = 0 second 280 micro
+Valid pass : Trial = 8 ; Array size = 102400 ; WorkGroup size = 64
+ 20161213   18:38:28      0    67    39  3004   745
+ 20161213   18:38:28      1    13    33   324   324
+Problem size = 102400 Final Sum Sequential = 5.2429312000000000000e+09 Final Sum GPU = 5.2429312000000000000e+09 Initializing Arrays : Wall Clock = 0 second 496 micro Preparing GPU/OpenCL : Wall Clock = 0 second 138446 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 87 micro Time for Sequential Sum computing : Wall Clock = 0 second 287 micro
+Valid pass : Trial = 9 ; Array size = 102400 ; WorkGroup size = 64
+Problem size = 102400 Final Sum Sequential = 5.2429312000000000000e+09 Final Sum GPU = 5.2429312000000000000e+09 Initializing Arrays : Wall Clock = 0 second 489 micro Preparing GPU/OpenCL : Wall Clock = 0 second 135014 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 86 micro Time for Sequential Sum computing : Wall Clock = 0 second 281 micro
+Valid pass : Trial = 10 ; Array size = 102400 ; WorkGroup size = 64
+Problem size = 102400 Final Sum Sequential = 5.2429312000000000000e+09 Final Sum GPU = 5.2429312000000000000e+09 Initializing Arrays : Wall Clock = 0 second 490 micro Preparing GPU/OpenCL : Wall Clock = 0 second 136291 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 63 micro Time for Sequential Sum computing : Wall Clock = 0 second 287 micro
+Valid pass : Trial = 0 ; Array size = 102400 ; WorkGroup size = 128
+Problem size = 102400 Final Sum Sequential = 5.2429312000000000000e+09 Final Sum GPU = 5.2429312000000000000e+09 Initializing Arrays : Wall Clock = 0 second 448 micro Preparing GPU/OpenCL : Wall Clock = 0 second 136374 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 74 micro Time for Sequential Sum computing : Wall Clock = 0 second 286 micro
+Valid pass : Trial = 1 ; Array size = 102400 ; WorkGroup size = 128
+Problem size = 102400 Final Sum Sequential = 5.2429312000000000000e+09 Final Sum GPU = 5.2429312000000000000e+09 Initializing Arrays : Wall Clock = 0 second 501 micro Preparing GPU/OpenCL : Wall Clock = 0 second 137745 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 63 micro Time for Sequential Sum computing : Wall Clock = 0 second 289 micro
+Valid pass : Trial = 2 ; Array size = 102400 ; WorkGroup size = 128
+ 20161213   18:38:29      0    67    39  3004   745
+ 20161213   18:38:29      1    13    33   324   324
+Problem size = 102400 Final Sum Sequential = 5.2429312000000000000e+09 Final Sum GPU = 5.2429312000000000000e+09 Initializing Arrays : Wall Clock = 0 second 469 micro Preparing GPU/OpenCL : Wall Clock = 0 second 140726 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 64 micro Time for Sequential Sum computing : Wall Clock = 0 second 280 micro
+Valid pass : Trial = 3 ; Array size = 102400 ; WorkGroup size = 128
+Problem size = 102400 Final Sum Sequential = 5.2429312000000000000e+09 Final Sum GPU = 5.2429312000000000000e+09 Initializing Arrays : Wall Clock = 0 second 487 micro Preparing GPU/OpenCL : Wall Clock = 0 second 138464 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 62 micro Time for Sequential Sum computing : Wall Clock = 0 second 280 micro
+Valid pass : Trial = 4 ; Array size = 102400 ; WorkGroup size = 128
+Problem size = 102400 Final Sum Sequential = 5.2429312000000000000e+09 Final Sum GPU = 5.2429312000000000000e+09 Initializing Arrays : Wall Clock = 0 second 457 micro Preparing GPU/OpenCL : Wall Clock = 0 second 139952 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 64 micro Time for Sequential Sum computing : Wall Clock = 0 second 288 micro
+Valid pass : Trial = 5 ; Array size = 102400 ; WorkGroup size = 128
+Problem size = 102400 Final Sum Sequential = 5.2429312000000000000e+09 Final Sum GPU = 5.2429312000000000000e+09 Initializing Arrays : Wall Clock = 0 second 484 micro Preparing GPU/OpenCL : Wall Clock = 0 second 139648 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 62 micro Time for Sequential Sum computing : Wall Clock = 0 second 280 micro
+Valid pass : Trial = 6 ; Array size = 102400 ; WorkGroup size = 128
+Problem size = 102400 Final Sum Sequential = 5.2429312000000000000e+09 Final Sum GPU = 5.2429312000000000000e+09 Initializing Arrays : Wall Clock = 0 second 509 micro Preparing GPU/OpenCL : Wall Clock = 0 second 139430 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 92 micro Time for Sequential Sum computing : Wall Clock = 0 second 422 micro
+Valid pass : Trial = 7 ; Array size = 102400 ; WorkGroup size = 128
+ 20161213   18:38:30      0    67    40  3004   745
+ 20161213   18:38:30      1    14    33   324   324
+Problem size = 102400 Final Sum Sequential = 5.2429312000000000000e+09 Final Sum GPU = 5.2429312000000000000e+09 Initializing Arrays : Wall Clock = 0 second 485 micro Preparing GPU/OpenCL : Wall Clock = 0 second 142018 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 62 micro Time for Sequential Sum computing : Wall Clock = 0 second 286 micro
+Valid pass : Trial = 8 ; Array size = 102400 ; WorkGroup size = 128
+Problem size = 102400 Final Sum Sequential = 5.2429312000000000000e+09 Final Sum GPU = 5.2429312000000000000e+09 Initializing Arrays : Wall Clock = 0 second 515 micro Preparing GPU/OpenCL : Wall Clock = 0 second 139148 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 62 micro Time for Sequential Sum computing : Wall Clock = 0 second 280 micro
+Valid pass : Trial = 9 ; Array size = 102400 ; WorkGroup size = 128
+Problem size = 102400 Final Sum Sequential = 5.2429312000000000000e+09 Final Sum GPU = 5.2429312000000000000e+09 Initializing Arrays : Wall Clock = 0 second 521 micro Preparing GPU/OpenCL : Wall Clock = 0 second 138087 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 74 micro Time for Sequential Sum computing : Wall Clock = 0 second 280 micro
+Valid pass : Trial = 10 ; Array size = 102400 ; WorkGroup size = 128
+Problem size = 102400 Final Sum Sequential = 5.2429312000000000000e+09 Final Sum GPU = 5.2429312000000000000e+09 Initializing Arrays : Wall Clock = 0 second 460 micro Preparing GPU/OpenCL : Wall Clock = 0 second 144214 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 76 micro Time for Sequential Sum computing : Wall Clock = 0 second 281 micro
+Valid pass : Trial = 0 ; Array size = 102400 ; WorkGroup size = 256
+Problem size = 102400 Final Sum Sequential = 5.2429312000000000000e+09 Final Sum GPU = 5.2429312000000000000e+09 Initializing Arrays : Wall Clock = 0 second 489 micro Preparing GPU/OpenCL : Wall Clock = 0 second 139931 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 71 micro Time for Sequential Sum computing : Wall Clock = 0 second 281 micro
+Valid pass : Trial = 1 ; Array size = 102400 ; WorkGroup size = 256
+ 20161213   18:38:31      0    67    39  3004   745
+ 20161213   18:38:31      1    13    33   324   324
+Problem size = 102400 Final Sum Sequential = 5.2429312000000000000e+09 Final Sum GPU = 5.2429312000000000000e+09 Initializing Arrays : Wall Clock = 0 second 503 micro Preparing GPU/OpenCL : Wall Clock = 0 second 138777 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 88 micro Time for Sequential Sum computing : Wall Clock = 0 second 417 micro
+Valid pass : Trial = 2 ; Array size = 102400 ; WorkGroup size = 256
+Problem size = 102400 Final Sum Sequential = 5.2429312000000000000e+09 Final Sum GPU = 5.2429312000000000000e+09 Initializing Arrays : Wall Clock = 0 second 500 micro Preparing GPU/OpenCL : Wall Clock = 0 second 141890 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 63 micro Time for Sequential Sum computing : Wall Clock = 0 second 297 micro
+Valid pass : Trial = 3 ; Array size = 102400 ; WorkGroup size = 256
+Problem size = 102400 Final Sum Sequential = 5.2429312000000000000e+09 Final Sum GPU = 5.2429312000000000000e+09 Initializing Arrays : Wall Clock = 0 second 496 micro Preparing GPU/OpenCL : Wall Clock = 0 second 142717 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 70 micro Time for Sequential Sum computing : Wall Clock = 0 second 281 micro
+Valid pass : Trial = 4 ; Array size = 102400 ; WorkGroup size = 256
+Problem size = 102400 Final Sum Sequential = 5.2429312000000000000e+09 Final Sum GPU = 5.2429312000000000000e+09 Initializing Arrays : Wall Clock = 0 second 486 micro Preparing GPU/OpenCL : Wall Clock = 0 second 139462 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 72 micro Time for Sequential Sum computing : Wall Clock = 0 second 281 micro
+Valid pass : Trial = 5 ; Array size = 102400 ; WorkGroup size = 256
+ 20161213   18:38:32      0    67    39  3004   745
+ 20161213   18:38:32      1    13    33   324   324
+Problem size = 102400 Final Sum Sequential = 5.2429312000000000000e+09 Final Sum GPU = 5.2429312000000000000e+09 Initializing Arrays : Wall Clock = 0 second 502 micro Preparing GPU/OpenCL : Wall Clock = 0 second 137016 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 71 micro Time for Sequential Sum computing : Wall Clock = 0 second 281 micro
+Valid pass : Trial = 6 ; Array size = 102400 ; WorkGroup size = 256
+Problem size = 102400 Final Sum Sequential = 5.2429312000000000000e+09 Final Sum GPU = 5.2429312000000000000e+09 Initializing Arrays : Wall Clock = 0 second 498 micro Preparing GPU/OpenCL : Wall Clock = 0 second 140560 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 88 micro Time for Sequential Sum computing : Wall Clock = 0 second 380 micro
+Valid pass : Trial = 7 ; Array size = 102400 ; WorkGroup size = 256
+Problem size = 102400 Final Sum Sequential = 5.2429312000000000000e+09 Final Sum GPU = 5.2429312000000000000e+09 Initializing Arrays : Wall Clock = 0 second 495 micro Preparing GPU/OpenCL : Wall Clock = 0 second 137328 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 73 micro Time for Sequential Sum computing : Wall Clock = 0 second 281 micro
+Valid pass : Trial = 8 ; Array size = 102400 ; WorkGroup size = 256
+Problem size = 102400 Final Sum Sequential = 5.2429312000000000000e+09 Final Sum GPU = 5.2429312000000000000e+09 Initializing Arrays : Wall Clock = 0 second 499 micro Preparing GPU/OpenCL : Wall Clock = 0 second 137251 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 72 micro Time for Sequential Sum computing : Wall Clock = 0 second 288 micro
+Valid pass : Trial = 9 ; Array size = 102400 ; WorkGroup size = 256
+Problem size = 102400 Final Sum Sequential = 5.2429312000000000000e+09 Final Sum GPU = 5.2429312000000000000e+09 Initializing Arrays : Wall Clock = 0 second 493 micro Preparing GPU/OpenCL : Wall Clock = 0 second 138606 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 61 micro Time for Sequential Sum computing : Wall Clock = 0 second 280 micro
+Valid pass : Trial = 10 ; Array size = 102400 ; WorkGroup size = 256
+ 20161213   18:38:33      0    67    40  3004   745
+ 20161213   18:38:33      1    14    33   324   324
+Problem size = 102400 Final Sum Sequential = 5.2429312000000000000e+09 Final Sum GPU = 5.2429312000000000000e+09 Initializing Arrays : Wall Clock = 0 second 499 micro Preparing GPU/OpenCL : Wall Clock = 0 second 140172 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 79 micro Time for Sequential Sum computing : Wall Clock = 0 second 281 micro
+Valid pass : Trial = 0 ; Array size = 102400 ; WorkGroup size = 1024
+Problem size = 102400 Final Sum Sequential = 5.2429312000000000000e+09 Final Sum GPU = 5.2429312000000000000e+09 Initializing Arrays : Wall Clock = 0 second 522 micro Preparing GPU/OpenCL : Wall Clock = 0 second 138769 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 85 micro Time for Sequential Sum computing : Wall Clock = 0 second 289 micro
+Valid pass : Trial = 1 ; Array size = 102400 ; WorkGroup size = 1024
+Problem size = 102400 Final Sum Sequential = 5.2429312000000000000e+09 Final Sum GPU = 5.2429312000000000000e+09 Initializing Arrays : Wall Clock = 0 second 697 micro Preparing GPU/OpenCL : Wall Clock = 0 second 139216 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 68 micro Time for Sequential Sum computing : Wall Clock = 0 second 280 micro
+Valid pass : Trial = 2 ; Array size = 102400 ; WorkGroup size = 1024
+Problem size = 102400 Final Sum Sequential = 5.2429312000000000000e+09 Final Sum GPU = 5.2429312000000000000e+09 Initializing Arrays : Wall Clock = 0 second 488 micro Preparing GPU/OpenCL : Wall Clock = 0 second 135920 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 79 micro Time for Sequential Sum computing : Wall Clock = 0 second 280 micro
+Valid pass : Trial = 3 ; Array size = 102400 ; WorkGroup size = 1024
+Problem size = 102400 Final Sum Sequential = 5.2429312000000000000e+09 Final Sum GPU = 5.2429312000000000000e+09 Initializing Arrays : Wall Clock = 0 second 491 micro Preparing GPU/OpenCL : Wall Clock = 0 second 137223 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 79 micro Time for Sequential Sum computing : Wall Clock = 0 second 286 micro
+Valid pass : Trial = 4 ; Array size = 102400 ; WorkGroup size = 1024
+ 20161213   18:38:34      0    67    40  3004   745
+ 20161213   18:38:34      1    14    33   324   324
+Problem size = 102400 Final Sum Sequential = 5.2429312000000000000e+09 Final Sum GPU = 5.2429312000000000000e+09 Initializing Arrays : Wall Clock = 0 second 492 micro Preparing GPU/OpenCL : Wall Clock = 0 second 140879 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 69 micro Time for Sequential Sum computing : Wall Clock = 0 second 287 micro
+Valid pass : Trial = 5 ; Array size = 102400 ; WorkGroup size = 1024
+Problem size = 102400 Final Sum Sequential = 5.2429312000000000000e+09 Final Sum GPU = 5.2429312000000000000e+09 Initializing Arrays : Wall Clock = 0 second 493 micro Preparing GPU/OpenCL : Wall Clock = 0 second 139541 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 96 micro Time for Sequential Sum computing : Wall Clock = 0 second 387 micro
+Valid pass : Trial = 6 ; Array size = 102400 ; WorkGroup size = 1024
+Problem size = 102400 Final Sum Sequential = 5.2429312000000000000e+09 Final Sum GPU = 5.2429312000000000000e+09 Initializing Arrays : Wall Clock = 0 second 490 micro Preparing GPU/OpenCL : Wall Clock = 0 second 135095 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 73 micro Time for Sequential Sum computing : Wall Clock = 0 second 280 micro
+Valid pass : Trial = 7 ; Array size = 102400 ; WorkGroup size = 1024
+Problem size = 102400 Final Sum Sequential = 5.2429312000000000000e+09 Final Sum GPU = 5.2429312000000000000e+09 Initializing Arrays : Wall Clock = 0 second 477 micro Preparing GPU/OpenCL : Wall Clock = 0 second 137617 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 79 micro Time for Sequential Sum computing : Wall Clock = 0 second 280 micro
+Valid pass : Trial = 8 ; Array size = 102400 ; WorkGroup size = 1024
+Problem size = 102400 Final Sum Sequential = 5.2429312000000000000e+09 Final Sum GPU = 5.2429312000000000000e+09 Initializing Arrays : Wall Clock = 0 second 492 micro Preparing GPU/OpenCL : Wall Clock = 0 second 138834 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 78 micro Time for Sequential Sum computing : Wall Clock = 0 second 288 micro
+Valid pass : Trial = 9 ; Array size = 102400 ; WorkGroup size = 1024
+ 20161213   18:38:35      0    67    40  3004   745
+ 20161213   18:38:35      1    14    33   324   324
+Problem size = 102400 Final Sum Sequential = 5.2429312000000000000e+09 Final Sum GPU = 5.2429312000000000000e+09 Initializing Arrays : Wall Clock = 0 second 496 micro Preparing GPU/OpenCL : Wall Clock = 0 second 140172 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 79 micro Time for Sequential Sum computing : Wall Clock = 0 second 281 micro
+Valid pass : Trial = 10 ; Array size = 102400 ; WorkGroup size = 1024
+Problem size = 1024000 Final Sum Sequential = 5.2428851200000000000e+11 Final Sum GPU = 5.2428851200000000000e+11 Initializing Arrays : Wall Clock = 0 second 4636 micro Preparing GPU/OpenCL : Wall Clock = 0 second 141831 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 827 micro Time for Sequential Sum computing : Wall Clock = 0 second 2835 micro
+Valid pass : Trial = 0 ; Array size = 1024000 ; WorkGroup size = 16
+Problem size = 1024000 Final Sum Sequential = 5.2428851200000000000e+11 Final Sum GPU = 5.2428851200000000000e+11 Initializing Arrays : Wall Clock = 0 second 4463 micro Preparing GPU/OpenCL : Wall Clock = 0 second 143032 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 806 micro Time for Sequential Sum computing : Wall Clock = 0 second 2822 micro
+Valid pass : Trial = 1 ; Array size = 1024000 ; WorkGroup size = 16
+Problem size = 1024000 Final Sum Sequential = 5.2428851200000000000e+11 Final Sum GPU = 5.2428851200000000000e+11 Initializing Arrays : Wall Clock = 0 second 4766 micro Preparing GPU/OpenCL : Wall Clock = 0 second 138741 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 810 micro Time for Sequential Sum computing : Wall Clock = 0 second 2822 micro
+Valid pass : Trial = 2 ; Array size = 1024000 ; WorkGroup size = 16
+ 20161213   18:38:36      0    67    40  3004   745
+ 20161213   18:38:36      1    13    33   324   324
+Problem size = 1024000 Final Sum Sequential = 5.2428851200000000000e+11 Final Sum GPU = 5.2428851200000000000e+11 Initializing Arrays : Wall Clock = 0 second 4319 micro Preparing GPU/OpenCL : Wall Clock = 0 second 132714 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 813 micro Time for Sequential Sum computing : Wall Clock = 0 second 2822 micro
+Valid pass : Trial = 3 ; Array size = 1024000 ; WorkGroup size = 16
+Problem size = 1024000 Final Sum Sequential = 5.2428851200000000000e+11 Final Sum GPU = 5.2428851200000000000e+11 Initializing Arrays : Wall Clock = 0 second 4426 micro Preparing GPU/OpenCL : Wall Clock = 0 second 139894 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 801 micro Time for Sequential Sum computing : Wall Clock = 0 second 2835 micro
+Valid pass : Trial = 4 ; Array size = 1024000 ; WorkGroup size = 16
+Problem size = 1024000 Final Sum Sequential = 5.2428851200000000000e+11 Final Sum GPU = 5.2428851200000000000e+11 Initializing Arrays : Wall Clock = 0 second 4294 micro Preparing GPU/OpenCL : Wall Clock = 0 second 132963 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 825 micro Time for Sequential Sum computing : Wall Clock = 0 second 2821 micro
+Valid pass : Trial = 5 ; Array size = 1024000 ; WorkGroup size = 16
+Problem size = 1024000 Final Sum Sequential = 5.2428851200000000000e+11 Final Sum GPU = 5.2428851200000000000e+11 Initializing Arrays : Wall Clock = 0 second 4439 micro Preparing GPU/OpenCL : Wall Clock = 0 second 135833 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 815 micro Time for Sequential Sum computing : Wall Clock = 0 second 2833 micro
+Valid pass : Trial = 6 ; Array size = 1024000 ; WorkGroup size = 16
+Problem size = 1024000 Final Sum Sequential = 5.2428851200000000000e+11 Final Sum GPU = 5.2428851200000000000e+11 Initializing Arrays : Wall Clock = 0 second 4473 micro Preparing GPU/OpenCL : Wall Clock = 0 second 138475 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 804 micro Time for Sequential Sum computing : Wall Clock = 0 second 2840 micro
+Valid pass : Trial = 7 ; Array size = 1024000 ; WorkGroup size = 16
+ 20161213   18:38:37      0    67    40  3004   745
+ 20161213   18:38:37      1    14    33   324   324
+Problem size = 1024000 Final Sum Sequential = 5.2428851200000000000e+11 Final Sum GPU = 5.2428851200000000000e+11 Initializing Arrays : Wall Clock = 0 second 4498 micro Preparing GPU/OpenCL : Wall Clock = 0 second 143178 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 808 micro Time for Sequential Sum computing : Wall Clock = 0 second 2822 micro
+Valid pass : Trial = 8 ; Array size = 1024000 ; WorkGroup size = 16
+Problem size = 1024000 Final Sum Sequential = 5.2428851200000000000e+11 Final Sum GPU = 5.2428851200000000000e+11 Initializing Arrays : Wall Clock = 0 second 4451 micro Preparing GPU/OpenCL : Wall Clock = 0 second 139333 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 810 micro Time for Sequential Sum computing : Wall Clock = 0 second 2834 micro
+Valid pass : Trial = 9 ; Array size = 1024000 ; WorkGroup size = 16
+Problem size = 1024000 Final Sum Sequential = 5.2428851200000000000e+11 Final Sum GPU = 5.2428851200000000000e+11 Initializing Arrays : Wall Clock = 0 second 4422 micro Preparing GPU/OpenCL : Wall Clock = 0 second 136003 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 825 micro Time for Sequential Sum computing : Wall Clock = 0 second 2819 micro
+Valid pass : Trial = 10 ; Array size = 1024000 ; WorkGroup size = 16
+Problem size = 1024000 Final Sum Sequential = 5.2428851200000000000e+11 Final Sum GPU = 5.2428851200000000000e+11 Initializing Arrays : Wall Clock = 0 second 4297 micro Preparing GPU/OpenCL : Wall Clock = 0 second 141047 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 474 micro Time for Sequential Sum computing : Wall Clock = 0 second 2831 micro
+Valid pass : Trial = 0 ; Array size = 1024000 ; WorkGroup size = 32
+Problem size = 1024000 Final Sum Sequential = 5.2428851200000000000e+11 Final Sum GPU = 5.2428851200000000000e+11 Initializing Arrays : Wall Clock = 0 second 4323 micro Preparing GPU/OpenCL : Wall Clock = 0 second 141162 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 488 micro Time for Sequential Sum computing : Wall Clock = 0 second 2817 micro
+Valid pass : Trial = 1 ; Array size = 1024000 ; WorkGroup size = 32
+#Date       Time        gpu   pwr  temp  mclk  pclk
+#YYYYMMDD   HH:MM:SS    Idx     W     C   MHz   MHz
+ 20161213   18:38:38      0    67    40  3004   745
+ 20161213   18:38:38      1    14    33   324   324
+Problem size = 1024000 Final Sum Sequential = 5.2428851200000000000e+11 Final Sum GPU = 5.2428851200000000000e+11 Initializing Arrays : Wall Clock = 0 second 4305 micro Preparing GPU/OpenCL : Wall Clock = 0 second 141153 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 483 micro Time for Sequential Sum computing : Wall Clock = 0 second 2823 micro
+Valid pass : Trial = 2 ; Array size = 1024000 ; WorkGroup size = 32
+Problem size = 1024000 Final Sum Sequential = 5.2428851200000000000e+11 Final Sum GPU = 5.2428851200000000000e+11 Initializing Arrays : Wall Clock = 0 second 4269 micro Preparing GPU/OpenCL : Wall Clock = 0 second 136836 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 474 micro Time for Sequential Sum computing : Wall Clock = 0 second 2819 micro
+Valid pass : Trial = 3 ; Array size = 1024000 ; WorkGroup size = 32
+Problem size = 1024000 Final Sum Sequential = 5.2428851200000000000e+11 Final Sum GPU = 5.2428851200000000000e+11 Initializing Arrays : Wall Clock = 0 second 4578 micro Preparing GPU/OpenCL : Wall Clock = 0 second 137288 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 494 micro Time for Sequential Sum computing : Wall Clock = 0 second 2816 micro
+Valid pass : Trial = 4 ; Array size = 1024000 ; WorkGroup size = 32
+Problem size = 1024000 Final Sum Sequential = 5.2428851200000000000e+11 Final Sum GPU = 5.2428851200000000000e+11 Initializing Arrays : Wall Clock = 0 second 4271 micro Preparing GPU/OpenCL : Wall Clock = 0 second 139824 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 467 micro Time for Sequential Sum computing : Wall Clock = 0 second 2824 micro
+Valid pass : Trial = 5 ; Array size = 1024000 ; WorkGroup size = 32
+ 20161213   18:38:39      0    67    40  3004   745
+ 20161213   18:38:39      1    14    33   324   324
+Problem size = 1024000 Final Sum Sequential = 5.2428851200000000000e+11 Final Sum GPU = 5.2428851200000000000e+11 Initializing Arrays : Wall Clock = 0 second 4167 micro Preparing GPU/OpenCL : Wall Clock = 0 second 133227 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 477 micro Time for Sequential Sum computing : Wall Clock = 0 second 2822 micro
+Valid pass : Trial = 6 ; Array size = 1024000 ; WorkGroup size = 32
+Problem size = 1024000 Final Sum Sequential = 5.2428851200000000000e+11 Final Sum GPU = 5.2428851200000000000e+11 Initializing Arrays : Wall Clock = 0 second 4127 micro Preparing GPU/OpenCL : Wall Clock = 0 second 131355 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 472 micro Time for Sequential Sum computing : Wall Clock = 0 second 2873 micro
+Valid pass : Trial = 7 ; Array size = 1024000 ; WorkGroup size = 32
+Problem size = 1024000 Final Sum Sequential = 5.2428851200000000000e+11 Final Sum GPU = 5.2428851200000000000e+11 Initializing Arrays : Wall Clock = 0 second 4224 micro Preparing GPU/OpenCL : Wall Clock = 0 second 138521 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 469 micro Time for Sequential Sum computing : Wall Clock = 0 second 2823 micro
+Valid pass : Trial = 8 ; Array size = 1024000 ; WorkGroup size = 32
+Problem size = 1024000 Final Sum Sequential = 5.2428851200000000000e+11 Final Sum GPU = 5.2428851200000000000e+11 Initializing Arrays : Wall Clock = 0 second 4519 micro Preparing GPU/OpenCL : Wall Clock = 0 second 138846 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 467 micro Time for Sequential Sum computing : Wall Clock = 0 second 2826 micro
+Valid pass : Trial = 9 ; Array size = 1024000 ; WorkGroup size = 32
+Problem size = 1024000 Final Sum Sequential = 5.2428851200000000000e+11 Final Sum GPU = 5.2428851200000000000e+11 Initializing Arrays : Wall Clock = 0 second 4179 micro Preparing GPU/OpenCL : Wall Clock = 0 second 133921 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 470 micro Time for Sequential Sum computing : Wall Clock = 0 second 2822 micro
+Valid pass : Trial = 10 ; Array size = 1024000 ; WorkGroup size = 32
+ 20161213   18:38:40      0    67    40  3004   745
+ 20161213   18:38:40      1    14    33   324   324
+Problem size = 1024000 Final Sum Sequential = 5.2428851200000000000e+11 Final Sum GPU = 5.2428851200000000000e+11 Initializing Arrays : Wall Clock = 0 second 4789 micro Preparing GPU/OpenCL : Wall Clock = 0 second 143443 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 326 micro Time for Sequential Sum computing : Wall Clock = 0 second 2836 micro
+Valid pass : Trial = 0 ; Array size = 1024000 ; WorkGroup size = 64
+Problem size = 1024000 Final Sum Sequential = 5.2428851200000000000e+11 Final Sum GPU = 5.2428851200000000000e+11 Initializing Arrays : Wall Clock = 0 second 4185 micro Preparing GPU/OpenCL : Wall Clock = 0 second 140010 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 294 micro Time for Sequential Sum computing : Wall Clock = 0 second 2890 micro
+Valid pass : Trial = 1 ; Array size = 1024000 ; WorkGroup size = 64
+Problem size = 1024000 Final Sum Sequential = 5.2428851200000000000e+11 Final Sum GPU = 5.2428851200000000000e+11 Initializing Arrays : Wall Clock = 0 second 4180 micro Preparing GPU/OpenCL : Wall Clock = 0 second 138897 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 296 micro Time for Sequential Sum computing : Wall Clock = 0 second 2822 micro
+Valid pass : Trial = 2 ; Array size = 1024000 ; WorkGroup size = 64
+Problem size = 1024000 Final Sum Sequential = 5.2428851200000000000e+11 Final Sum GPU = 5.2428851200000000000e+11 Initializing Arrays : Wall Clock = 0 second 4084 micro Preparing GPU/OpenCL : Wall Clock = 0 second 134121 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 301 micro Time for Sequential Sum computing : Wall Clock = 0 second 2823 micro
+Valid pass : Trial = 3 ; Array size = 1024000 ; WorkGroup size = 64
+Problem size = 1024000 Final Sum Sequential = 5.2428851200000000000e+11 Final Sum GPU = 5.2428851200000000000e+11 Initializing Arrays : Wall Clock = 0 second 4160 micro Preparing GPU/OpenCL : Wall Clock = 0 second 138629 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 292 micro Time for Sequential Sum computing : Wall Clock = 0 second 2820 micro
+Valid pass : Trial = 4 ; Array size = 1024000 ; WorkGroup size = 64
+ 20161213   18:38:41      0    67    40  3004   745
+ 20161213   18:38:41      1    14    33   324   324
+Problem size = 1024000 Final Sum Sequential = 5.2428851200000000000e+11 Final Sum GPU = 5.2428851200000000000e+11 Initializing Arrays : Wall Clock = 0 second 4134 micro Preparing GPU/OpenCL : Wall Clock = 0 second 144439 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 312 micro Time for Sequential Sum computing : Wall Clock = 0 second 2822 micro
+Valid pass : Trial = 5 ; Array size = 1024000 ; WorkGroup size = 64
+Problem size = 1024000 Final Sum Sequential = 5.2428851200000000000e+11 Final Sum GPU = 5.2428851200000000000e+11 Initializing Arrays : Wall Clock = 0 second 4182 micro Preparing GPU/OpenCL : Wall Clock = 0 second 140193 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 295 micro Time for Sequential Sum computing : Wall Clock = 0 second 2813 micro
+Valid pass : Trial = 6 ; Array size = 1024000 ; WorkGroup size = 64
+Problem size = 1024000 Final Sum Sequential = 5.2428851200000000000e+11 Final Sum GPU = 5.2428851200000000000e+11 Initializing Arrays : Wall Clock = 0 second 4378 micro Preparing GPU/OpenCL : Wall Clock = 0 second 136389 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 300 micro Time for Sequential Sum computing : Wall Clock = 0 second 2832 micro
+Valid pass : Trial = 7 ; Array size = 1024000 ; WorkGroup size = 64
+Problem size = 1024000 Final Sum Sequential = 5.2428851200000000000e+11 Final Sum GPU = 5.2428851200000000000e+11 Initializing Arrays : Wall Clock = 0 second 4184 micro Preparing GPU/OpenCL : Wall Clock = 0 second 144466 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 292 micro Time for Sequential Sum computing : Wall Clock = 0 second 2831 micro
+Valid pass : Trial = 8 ; Array size = 1024000 ; WorkGroup size = 64
+Problem size = 1024000 Final Sum Sequential = 5.2428851200000000000e+11 Final Sum GPU = 5.2428851200000000000e+11 Initializing Arrays : Wall Clock = 0 second 4305 micro Preparing GPU/OpenCL : Wall Clock = 0 second 131263 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 316 micro Time for Sequential Sum computing : Wall Clock = 0 second 2827 micro
+ 20161213   18:38:42      0    67    40  3004   745
+ 20161213   18:38:42      1    13    33   324   324
+Valid pass : Trial = 9 ; Array size = 1024000 ; WorkGroup size = 64
+Problem size = 1024000 Final Sum Sequential = 5.2428851200000000000e+11 Final Sum GPU = 5.2428851200000000000e+11 Initializing Arrays : Wall Clock = 0 second 4098 micro Preparing GPU/OpenCL : Wall Clock = 0 second 133191 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 297 micro Time for Sequential Sum computing : Wall Clock = 0 second 2814 micro
+Valid pass : Trial = 10 ; Array size = 1024000 ; WorkGroup size = 64
+Problem size = 1024000 Final Sum Sequential = 5.2428851200000000000e+11 Final Sum GPU = 5.2428851200000000000e+11 Initializing Arrays : Wall Clock = 0 second 4032 micro Preparing GPU/OpenCL : Wall Clock = 0 second 133470 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 206 micro Time for Sequential Sum computing : Wall Clock = 0 second 2820 micro
+Valid pass : Trial = 0 ; Array size = 1024000 ; WorkGroup size = 128
+Problem size = 1024000 Final Sum Sequential = 5.2428851200000000000e+11 Final Sum GPU = 5.2428851200000000000e+11 Initializing Arrays : Wall Clock = 0 second 4386 micro Preparing GPU/OpenCL : Wall Clock = 0 second 140396 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 205 micro Time for Sequential Sum computing : Wall Clock = 0 second 2862 micro
+Valid pass : Trial = 1 ; Array size = 1024000 ; WorkGroup size = 128
+Problem size = 1024000 Final Sum Sequential = 5.2428851200000000000e+11 Final Sum GPU = 5.2428851200000000000e+11 Initializing Arrays : Wall Clock = 0 second 4133 micro Preparing GPU/OpenCL : Wall Clock = 0 second 139864 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 211 micro Time for Sequential Sum computing : Wall Clock = 0 second 2816 micro
+Valid pass : Trial = 2 ; Array size = 1024000 ; WorkGroup size = 128
+ 20161213   18:38:43      0    67    40  3004   745
+ 20161213   18:38:43      1    14    33   324   324
+Problem size = 1024000 Final Sum Sequential = 5.2428851200000000000e+11 Final Sum GPU = 5.2428851200000000000e+11 Initializing Arrays : Wall Clock = 0 second 4033 micro Preparing GPU/OpenCL : Wall Clock = 0 second 132846 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 221 micro Time for Sequential Sum computing : Wall Clock = 0 second 2822 micro
+Valid pass : Trial = 3 ; Array size = 1024000 ; WorkGroup size = 128
+Problem size = 1024000 Final Sum Sequential = 5.2428851200000000000e+11 Final Sum GPU = 5.2428851200000000000e+11 Initializing Arrays : Wall Clock = 0 second 4459 micro Preparing GPU/OpenCL : Wall Clock = 0 second 141138 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 267 micro Time for Sequential Sum computing : Wall Clock = 0 second 2815 micro
+Valid pass : Trial = 4 ; Array size = 1024000 ; WorkGroup size = 128
+Problem size = 1024000 Final Sum Sequential = 5.2428851200000000000e+11 Final Sum GPU = 5.2428851200000000000e+11 Initializing Arrays : Wall Clock = 0 second 4100 micro Preparing GPU/OpenCL : Wall Clock = 0 second 138961 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 218 micro Time for Sequential Sum computing : Wall Clock = 0 second 2816 micro
+Valid pass : Trial = 5 ; Array size = 1024000 ; WorkGroup size = 128
+Problem size = 1024000 Final Sum Sequential = 5.2428851200000000000e+11 Final Sum GPU = 5.2428851200000000000e+11 Initializing Arrays : Wall Clock = 0 second 4100 micro Preparing GPU/OpenCL : Wall Clock = 0 second 138521 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 231 micro Time for Sequential Sum computing : Wall Clock = 0 second 2858 micro
+Valid pass : Trial = 6 ; Array size = 1024000 ; WorkGroup size = 128
+Problem size = 1024000 Final Sum Sequential = 5.2428851200000000000e+11 Final Sum GPU = 5.2428851200000000000e+11 Initializing Arrays : Wall Clock = 0 second 4002 micro Preparing GPU/OpenCL : Wall Clock = 0 second 134684 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 214 micro Time for Sequential Sum computing : Wall Clock = 0 second 2816 micro
+Valid pass : Trial = 7 ; Array size = 1024000 ; WorkGroup size = 128
+ 20161213   18:38:44      0    67    40  3004   745
+ 20161213   18:38:44      1    14    33   324   324
+Problem size = 1024000 Final Sum Sequential = 5.2428851200000000000e+11 Final Sum GPU = 5.2428851200000000000e+11 Initializing Arrays : Wall Clock = 0 second 4116 micro Preparing GPU/OpenCL : Wall Clock = 0 second 139502 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 231 micro Time for Sequential Sum computing : Wall Clock = 0 second 2842 micro
+Valid pass : Trial = 8 ; Array size = 1024000 ; WorkGroup size = 128
+Problem size = 1024000 Final Sum Sequential = 5.2428851200000000000e+11 Final Sum GPU = 5.2428851200000000000e+11 Initializing Arrays : Wall Clock = 0 second 4140 micro Preparing GPU/OpenCL : Wall Clock = 0 second 140946 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 272 micro Time for Sequential Sum computing : Wall Clock = 0 second 2849 micro
+Valid pass : Trial = 9 ; Array size = 1024000 ; WorkGroup size = 128
+Problem size = 1024000 Final Sum Sequential = 5.2428851200000000000e+11 Final Sum GPU = 5.2428851200000000000e+11 Initializing Arrays : Wall Clock = 0 second 4141 micro Preparing GPU/OpenCL : Wall Clock = 0 second 142988 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 213 micro Time for Sequential Sum computing : Wall Clock = 0 second 2818 micro
+Valid pass : Trial = 10 ; Array size = 1024000 ; WorkGroup size = 128
+Problem size = 1024000 Final Sum Sequential = 5.2428851200000000000e+11 Final Sum GPU = 5.2428851200000000000e+11 Initializing Arrays : Wall Clock = 0 second 4090 micro Preparing GPU/OpenCL : Wall Clock = 0 second 136053 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 204 micro Time for Sequential Sum computing : Wall Clock = 0 second 2823 micro
+Valid pass : Trial = 0 ; Array size = 1024000 ; WorkGroup size = 256
+Problem size = 1024000 Final Sum Sequential = 5.2428851200000000000e+11 Final Sum GPU = 5.2428851200000000000e+11 Initializing Arrays : Wall Clock = 0 second 4070 micro Preparing GPU/OpenCL : Wall Clock = 0 second 139820 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 220 micro Time for Sequential Sum computing : Wall Clock = 0 second 2818 micro
+Valid pass : Trial = 1 ; Array size = 1024000 ; WorkGroup size = 256
+ 20161213   18:38:45      0    67    40  3004   745
+ 20161213   18:38:45      1    13    33   324   324
+Problem size = 1024000 Final Sum Sequential = 5.2428851200000000000e+11 Final Sum GPU = 5.2428851200000000000e+11 Initializing Arrays : Wall Clock = 0 second 3985 micro Preparing GPU/OpenCL : Wall Clock = 0 second 134880 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 200 micro Time for Sequential Sum computing : Wall Clock = 0 second 2832 micro
+Valid pass : Trial = 2 ; Array size = 1024000 ; WorkGroup size = 256
+Problem size = 1024000 Final Sum Sequential = 5.2428851200000000000e+11 Final Sum GPU = 5.2428851200000000000e+11 Initializing Arrays : Wall Clock = 0 second 4118 micro Preparing GPU/OpenCL : Wall Clock = 0 second 140590 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 203 micro Time for Sequential Sum computing : Wall Clock = 0 second 2860 micro
+Valid pass : Trial = 3 ; Array size = 1024000 ; WorkGroup size = 256
+Problem size = 1024000 Final Sum Sequential = 5.2428851200000000000e+11 Final Sum GPU = 5.2428851200000000000e+11 Initializing Arrays : Wall Clock = 0 second 4115 micro Preparing GPU/OpenCL : Wall Clock = 0 second 139998 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 207 micro Time for Sequential Sum computing : Wall Clock = 0 second 2823 micro
+Valid pass : Trial = 4 ; Array size = 1024000 ; WorkGroup size = 256
+Problem size = 1024000 Final Sum Sequential = 5.2428851200000000000e+11 Final Sum GPU = 5.2428851200000000000e+11 Initializing Arrays : Wall Clock = 0 second 4024 micro Preparing GPU/OpenCL : Wall Clock = 0 second 136208 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 207 micro Time for Sequential Sum computing : Wall Clock = 0 second 2822 micro
+Valid pass : Trial = 5 ; Array size = 1024000 ; WorkGroup size = 256
+ 20161213   18:38:46      0    67    40  3004   745
+ 20161213   18:38:46      1    14    33   324   324
+Problem size = 1024000 Final Sum Sequential = 5.2428851200000000000e+11 Final Sum GPU = 5.2428851200000000000e+11 Initializing Arrays : Wall Clock = 0 second 3985 micro Preparing GPU/OpenCL : Wall Clock = 0 second 131006 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 201 micro Time for Sequential Sum computing : Wall Clock = 0 second 2830 micro
+Valid pass : Trial = 6 ; Array size = 1024000 ; WorkGroup size = 256
+Problem size = 1024000 Final Sum Sequential = 5.2428851200000000000e+11 Final Sum GPU = 5.2428851200000000000e+11 Initializing Arrays : Wall Clock = 0 second 4107 micro Preparing GPU/OpenCL : Wall Clock = 0 second 139725 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 202 micro Time for Sequential Sum computing : Wall Clock = 0 second 2818 micro
+Valid pass : Trial = 7 ; Array size = 1024000 ; WorkGroup size = 256
+Problem size = 1024000 Final Sum Sequential = 5.2428851200000000000e+11 Final Sum GPU = 5.2428851200000000000e+11 Initializing Arrays : Wall Clock = 0 second 3996 micro Preparing GPU/OpenCL : Wall Clock = 0 second 131907 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 220 micro Time for Sequential Sum computing : Wall Clock = 0 second 2826 micro
+Valid pass : Trial = 8 ; Array size = 1024000 ; WorkGroup size = 256
+Problem size = 1024000 Final Sum Sequential = 5.2428851200000000000e+11 Final Sum GPU = 5.2428851200000000000e+11 Initializing Arrays : Wall Clock = 0 second 4006 micro Preparing GPU/OpenCL : Wall Clock = 0 second 135875 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 217 micro Time for Sequential Sum computing : Wall Clock = 0 second 2818 micro
+Valid pass : Trial = 9 ; Array size = 1024000 ; WorkGroup size = 256
+Problem size = 1024000 Final Sum Sequential = 5.2428851200000000000e+11 Final Sum GPU = 5.2428851200000000000e+11 Initializing Arrays : Wall Clock = 0 second 4077 micro Preparing GPU/OpenCL : Wall Clock = 0 second 141193 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 202 micro Time for Sequential Sum computing : Wall Clock = 0 second 2822 micro
+Valid pass : Trial = 10 ; Array size = 1024000 ; WorkGroup size = 256
+ 20161213   18:38:47      0    67    40  3004   745
+ 20161213   18:38:47      1    14    33   324   324
+Problem size = 1024000 Final Sum Sequential = 5.2428851200000000000e+11 Final Sum GPU = 5.2428851200000000000e+11 Initializing Arrays : Wall Clock = 0 second 4261 micro Preparing GPU/OpenCL : Wall Clock = 0 second 143606 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 249 micro Time for Sequential Sum computing : Wall Clock = 0 second 2821 micro
+Valid pass : Trial = 0 ; Array size = 1024000 ; WorkGroup size = 1024
+Problem size = 1024000 Final Sum Sequential = 5.2428851200000000000e+11 Final Sum GPU = 5.2428851200000000000e+11 Initializing Arrays : Wall Clock = 0 second 4009 micro Preparing GPU/OpenCL : Wall Clock = 0 second 133359 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 249 micro Time for Sequential Sum computing : Wall Clock = 0 second 2824 micro
+Valid pass : Trial = 1 ; Array size = 1024000 ; WorkGroup size = 1024
+Problem size = 1024000 Final Sum Sequential = 5.2428851200000000000e+11 Final Sum GPU = 5.2428851200000000000e+11 Initializing Arrays : Wall Clock = 0 second 4108 micro Preparing GPU/OpenCL : Wall Clock = 0 second 142440 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 248 micro Time for Sequential Sum computing : Wall Clock = 0 second 2821 micro
+Valid pass : Trial = 2 ; Array size = 1024000 ; WorkGroup size = 1024
+Problem size = 1024000 Final Sum Sequential = 5.2428851200000000000e+11 Final Sum GPU = 5.2428851200000000000e+11 Initializing Arrays : Wall Clock = 0 second 4015 micro Preparing GPU/OpenCL : Wall Clock = 0 second 133217 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 265 micro Time for Sequential Sum computing : Wall Clock = 0 second 2820 micro
+Valid pass : Trial = 3 ; Array size = 1024000 ; WorkGroup size = 1024
+Problem size = 1024000 Final Sum Sequential = 5.2428851200000000000e+11 Final Sum GPU = 5.2428851200000000000e+11 Initializing Arrays : Wall Clock = 0 second 4080 micro Preparing GPU/OpenCL : Wall Clock = 0 second 138549 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 259 micro Time for Sequential Sum computing : Wall Clock = 0 second 2814 micro
+Valid pass : Trial = 4 ; Array size = 1024000 ; WorkGroup size = 1024
+ 20161213   18:38:48      0    67    40  3004   745
+ 20161213   18:38:48      1    13    33   324   324
+Problem size = 1024000 Final Sum Sequential = 5.2428851200000000000e+11 Final Sum GPU = 5.2428851200000000000e+11 Initializing Arrays : Wall Clock = 0 second 3913 micro Preparing GPU/OpenCL : Wall Clock = 0 second 134963 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 250 micro Time for Sequential Sum computing : Wall Clock = 0 second 2823 micro
+Valid pass : Trial = 5 ; Array size = 1024000 ; WorkGroup size = 1024
+Problem size = 1024000 Final Sum Sequential = 5.2428851200000000000e+11 Final Sum GPU = 5.2428851200000000000e+11 Initializing Arrays : Wall Clock = 0 second 4076 micro Preparing GPU/OpenCL : Wall Clock = 0 second 138131 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 260 micro Time for Sequential Sum computing : Wall Clock = 0 second 3086 micro
+Valid pass : Trial = 6 ; Array size = 1024000 ; WorkGroup size = 1024
+Problem size = 1024000 Final Sum Sequential = 5.2428851200000000000e+11 Final Sum GPU = 5.2428851200000000000e+11 Initializing Arrays : Wall Clock = 0 second 4001 micro Preparing GPU/OpenCL : Wall Clock = 0 second 136301 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 251 micro Time for Sequential Sum computing : Wall Clock = 0 second 2857 micro
+Valid pass : Trial = 7 ; Array size = 1024000 ; WorkGroup size = 1024
+Problem size = 1024000 Final Sum Sequential = 5.2428851200000000000e+11 Final Sum GPU = 5.2428851200000000000e+11 Initializing Arrays : Wall Clock = 0 second 4335 micro Preparing GPU/OpenCL : Wall Clock = 0 second 138584 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 275 micro Time for Sequential Sum computing : Wall Clock = 0 second 2856 micro
+Valid pass : Trial = 8 ; Array size = 1024000 ; WorkGroup size = 1024
+ 20161213   18:38:49      0    67    40  3004   745
+ 20161213   18:38:49      1    13    33   324   324
+Problem size = 1024000 Final Sum Sequential = 5.2428851200000000000e+11 Final Sum GPU = 5.2428851200000000000e+11 Initializing Arrays : Wall Clock = 0 second 4348 micro Preparing GPU/OpenCL : Wall Clock = 0 second 148769 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 268 micro Time for Sequential Sum computing : Wall Clock = 0 second 2821 micro
+Valid pass : Trial = 9 ; Array size = 1024000 ; WorkGroup size = 1024
+Problem size = 1024000 Final Sum Sequential = 5.2428851200000000000e+11 Final Sum GPU = 5.2428851200000000000e+11 Initializing Arrays : Wall Clock = 0 second 4098 micro Preparing GPU/OpenCL : Wall Clock = 0 second 139425 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 265 micro Time for Sequential Sum computing : Wall Clock = 0 second 2813 micro
+Valid pass : Trial = 10 ; Array size = 1024000 ; WorkGroup size = 1024
+Problem size = 10240000 Final Sum Sequential = 5.2428805120000000000e+13 Final Sum GPU = 5.2428805120000000000e+13 Initializing Arrays : Wall Clock = 0 second 40192 micro Preparing GPU/OpenCL : Wall Clock = 0 second 141458 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 7289 micro Time for Sequential Sum computing : Wall Clock = 0 second 28414 micro
+Valid pass : Trial = 0 ; Array size = 10240000 ; WorkGroup size = 16
+Problem size = 10240000 Final Sum Sequential = 5.2428805120000000000e+13 Final Sum GPU = 5.2428805120000000000e+13 Initializing Arrays : Wall Clock = 0 second 41796 micro Preparing GPU/OpenCL : Wall Clock = 0 second 148232 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 7286 micro Time for Sequential Sum computing : Wall Clock = 0 second 28363 micro
+Valid pass : Trial = 1 ; Array size = 10240000 ; WorkGroup size = 16
+ 20161213   18:38:50      0    67    40  3004   745
+ 20161213   18:38:50      1    13    33   324   324
+Problem size = 10240000 Final Sum Sequential = 5.2428805120000000000e+13 Final Sum GPU = 5.2428805120000000000e+13 Initializing Arrays : Wall Clock = 0 second 40536 micro Preparing GPU/OpenCL : Wall Clock = 0 second 141943 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 7303 micro Time for Sequential Sum computing : Wall Clock = 0 second 28399 micro
+Valid pass : Trial = 2 ; Array size = 10240000 ; WorkGroup size = 16
+Problem size = 10240000 Final Sum Sequential = 5.2428805120000000000e+13 Final Sum GPU = 5.2428805120000000000e+13 Initializing Arrays : Wall Clock = 0 second 41649 micro Preparing GPU/OpenCL : Wall Clock = 0 second 147320 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 7519 micro Time for Sequential Sum computing : Wall Clock = 0 second 28378 micro
+Valid pass : Trial = 3 ; Array size = 10240000 ; WorkGroup size = 16
+Problem size = 10240000 Final Sum Sequential = 5.2428805120000000000e+13 Final Sum GPU = 5.2428805120000000000e+13 Initializing Arrays : Wall Clock = 0 second 41506 micro Preparing GPU/OpenCL : Wall Clock = 0 second 148300 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 7315 micro Time for Sequential Sum computing : Wall Clock = 0 second 28386 micro
+Valid pass : Trial = 4 ; Array size = 10240000 ; WorkGroup size = 16
+Problem size = 10240000 Final Sum Sequential = 5.2428805120000000000e+13 Final Sum GPU = 5.2428805120000000000e+13 Initializing Arrays : Wall Clock = 0 second 41930 micro Preparing GPU/OpenCL : Wall Clock = 0 second 149027 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 7302 micro Time for Sequential Sum computing : Wall Clock = 0 second 28408 micro
+Valid pass : Trial = 5 ; Array size = 10240000 ; WorkGroup size = 16
+ 20161213   18:38:51      0    67    40  3004   745
+ 20161213   18:38:51      1    14    33   324   324
+Problem size = 10240000 Final Sum Sequential = 5.2428805120000000000e+13 Final Sum GPU = 5.2428805120000000000e+13 Initializing Arrays : Wall Clock = 0 second 43886 micro Preparing GPU/OpenCL : Wall Clock = 0 second 152869 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 7286 micro Time for Sequential Sum computing : Wall Clock = 0 second 28394 micro
+Valid pass : Trial = 6 ; Array size = 10240000 ; WorkGroup size = 16
+Problem size = 10240000 Final Sum Sequential = 5.2428805120000000000e+13 Final Sum GPU = 5.2428805120000000000e+13 Initializing Arrays : Wall Clock = 0 second 42067 micro Preparing GPU/OpenCL : Wall Clock = 0 second 159781 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 7282 micro Time for Sequential Sum computing : Wall Clock = 0 second 28378 micro
+Valid pass : Trial = 7 ; Array size = 10240000 ; WorkGroup size = 16
+Problem size = 10240000 Final Sum Sequential = 5.2428805120000000000e+13 Final Sum GPU = 5.2428805120000000000e+13 Initializing Arrays : Wall Clock = 0 second 42082 micro Preparing GPU/OpenCL : Wall Clock = 0 second 148066 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 7297 micro Time for Sequential Sum computing : Wall Clock = 0 second 28620 micro
+Valid pass : Trial = 8 ; Array size = 10240000 ; WorkGroup size = 16
+ 20161213   18:38:52      0    67    40  3004   745
+ 20161213   18:38:52      1    13    33   324   324
+Problem size = 10240000 Final Sum Sequential = 5.2428805120000000000e+13 Final Sum GPU = 5.2428805120000000000e+13 Initializing Arrays : Wall Clock = 0 second 41598 micro Preparing GPU/OpenCL : Wall Clock = 0 second 153322 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 7294 micro Time for Sequential Sum computing : Wall Clock = 0 second 28379 micro
+Valid pass : Trial = 9 ; Array size = 10240000 ; WorkGroup size = 16
+Problem size = 10240000 Final Sum Sequential = 5.2428805120000000000e+13 Final Sum GPU = 5.2428805120000000000e+13 Initializing Arrays : Wall Clock = 0 second 41578 micro Preparing GPU/OpenCL : Wall Clock = 0 second 151449 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 7282 micro Time for Sequential Sum computing : Wall Clock = 0 second 28385 micro
+Valid pass : Trial = 10 ; Array size = 10240000 ; WorkGroup size = 16
+Problem size = 10240000 Final Sum Sequential = 5.2428805120000000000e+13 Final Sum GPU = 5.2428805120000000000e+13 Initializing Arrays : Wall Clock = 0 second 40498 micro Preparing GPU/OpenCL : Wall Clock = 0 second 151423 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 4100 micro Time for Sequential Sum computing : Wall Clock = 0 second 28393 micro
+Valid pass : Trial = 0 ; Array size = 10240000 ; WorkGroup size = 32
+ 20161213   18:38:53      0    67    40  3004   745
+ 20161213   18:38:53      1    13    33   324   324
+Problem size = 10240000 Final Sum Sequential = 5.2428805120000000000e+13 Final Sum GPU = 5.2428805120000000000e+13 Initializing Arrays : Wall Clock = 0 second 40327 micro Preparing GPU/OpenCL : Wall Clock = 0 second 150780 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 4101 micro Time for Sequential Sum computing : Wall Clock = 0 second 28372 micro
+Valid pass : Trial = 1 ; Array size = 10240000 ; WorkGroup size = 32
+Problem size = 10240000 Final Sum Sequential = 5.2428805120000000000e+13 Final Sum GPU = 5.2428805120000000000e+13 Initializing Arrays : Wall Clock = 0 second 40207 micro Preparing GPU/OpenCL : Wall Clock = 0 second 159394 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 4084 micro Time for Sequential Sum computing : Wall Clock = 0 second 28612 micro
+Valid pass : Trial = 2 ; Array size = 10240000 ; WorkGroup size = 32
+Problem size = 10240000 Final Sum Sequential = 5.2428805120000000000e+13 Final Sum GPU = 5.2428805120000000000e+13 Initializing Arrays : Wall Clock = 0 second 39996 micro Preparing GPU/OpenCL : Wall Clock = 0 second 151414 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 4083 micro Time for Sequential Sum computing : Wall Clock = 0 second 28380 micro
+Valid pass : Trial = 3 ; Array size = 10240000 ; WorkGroup size = 32
+Problem size = 10240000 Final Sum Sequential = 5.2428805120000000000e+13 Final Sum GPU = 5.2428805120000000000e+13 Initializing Arrays : Wall Clock = 0 second 40421 micro Preparing GPU/OpenCL : Wall Clock = 0 second 151444 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 4079 micro Time for Sequential Sum computing : Wall Clock = 0 second 28467 micro
+Valid pass : Trial = 4 ; Array size = 10240000 ; WorkGroup size = 32
+ 20161213   18:38:54      0    67    40  3004   745
+ 20161213   18:38:54      1    14    33   324   324
+Problem size = 10240000 Final Sum Sequential = 5.2428805120000000000e+13 Final Sum GPU = 5.2428805120000000000e+13 Initializing Arrays : Wall Clock = 0 second 40145 micro Preparing GPU/OpenCL : Wall Clock = 0 second 149604 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 4074 micro Time for Sequential Sum computing : Wall Clock = 0 second 28622 micro
+Valid pass : Trial = 5 ; Array size = 10240000 ; WorkGroup size = 32
+Problem size = 10240000 Final Sum Sequential = 5.2428805120000000000e+13 Final Sum GPU = 5.2428805120000000000e+13 Initializing Arrays : Wall Clock = 0 second 39950 micro Preparing GPU/OpenCL : Wall Clock = 0 second 149761 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 4084 micro Time for Sequential Sum computing : Wall Clock = 0 second 28391 micro
+Valid pass : Trial = 6 ; Array size = 10240000 ; WorkGroup size = 32
+Problem size = 10240000 Final Sum Sequential = 5.2428805120000000000e+13 Final Sum GPU = 5.2428805120000000000e+13 Initializing Arrays : Wall Clock = 0 second 39753 micro Preparing GPU/OpenCL : Wall Clock = 0 second 146264 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 4069 micro Time for Sequential Sum computing : Wall Clock = 0 second 28405 micro
+Valid pass : Trial = 7 ; Array size = 10240000 ; WorkGroup size = 32
+ 20161213   18:38:55      0    67    40  3004   745
+ 20161213   18:38:55      1    13    33   324   324
+Problem size = 10240000 Final Sum Sequential = 5.2428805120000000000e+13 Final Sum GPU = 5.2428805120000000000e+13 Initializing Arrays : Wall Clock = 0 second 40291 micro Preparing GPU/OpenCL : Wall Clock = 0 second 150247 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 4077 micro Time for Sequential Sum computing : Wall Clock = 0 second 30354 micro
+Valid pass : Trial = 8 ; Array size = 10240000 ; WorkGroup size = 32
+Problem size = 10240000 Final Sum Sequential = 5.2428805120000000000e+13 Final Sum GPU = 5.2428805120000000000e+13 Initializing Arrays : Wall Clock = 0 second 40245 micro Preparing GPU/OpenCL : Wall Clock = 0 second 150227 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 4067 micro Time for Sequential Sum computing : Wall Clock = 0 second 28382 micro
+Valid pass : Trial = 9 ; Array size = 10240000 ; WorkGroup size = 32
+Problem size = 10240000 Final Sum Sequential = 5.2428805120000000000e+13 Final Sum GPU = 5.2428805120000000000e+13 Initializing Arrays : Wall Clock = 0 second 40334 micro Preparing GPU/OpenCL : Wall Clock = 0 second 147433 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 4064 micro Time for Sequential Sum computing : Wall Clock = 0 second 28394 micro
+Valid pass : Trial = 10 ; Array size = 10240000 ; WorkGroup size = 32
+Problem size = 10240000 Final Sum Sequential = 5.2428805120000000000e+13 Final Sum GPU = 5.2428805120000000000e+13 Initializing Arrays : Wall Clock = 0 second 38214 micro Preparing GPU/OpenCL : Wall Clock = 0 second 143458 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 2407 micro Time for Sequential Sum computing : Wall Clock = 0 second 28378 micro
+Valid pass : Trial = 0 ; Array size = 10240000 ; WorkGroup size = 64
+ 20161213   18:38:56      0    67    40  3004   745
+ 20161213   18:38:56      1    14    33   324   324
+Problem size = 10240000 Final Sum Sequential = 5.2428805120000000000e+13 Final Sum GPU = 5.2428805120000000000e+13 Initializing Arrays : Wall Clock = 0 second 39252 micro Preparing GPU/OpenCL : Wall Clock = 0 second 149409 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 2421 micro Time for Sequential Sum computing : Wall Clock = 0 second 28381 micro
+Valid pass : Trial = 1 ; Array size = 10240000 ; WorkGroup size = 64
+Problem size = 10240000 Final Sum Sequential = 5.2428805120000000000e+13 Final Sum GPU = 5.2428805120000000000e+13 Initializing Arrays : Wall Clock = 0 second 39678 micro Preparing GPU/OpenCL : Wall Clock = 0 second 146921 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 2403 micro Time for Sequential Sum computing : Wall Clock = 0 second 28379 micro
+Valid pass : Trial = 2 ; Array size = 10240000 ; WorkGroup size = 64
+Problem size = 10240000 Final Sum Sequential = 5.2428805120000000000e+13 Final Sum GPU = 5.2428805120000000000e+13 Initializing Arrays : Wall Clock = 0 second 39366 micro Preparing GPU/OpenCL : Wall Clock = 0 second 150316 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 2406 micro Time for Sequential Sum computing : Wall Clock = 0 second 28385 micro
+Valid pass : Trial = 3 ; Array size = 10240000 ; WorkGroup size = 64
+ 20161213   18:38:57      0    67    41  3004   745
+ 20161213   18:38:57      1    13    33   324   324
+Problem size = 10240000 Final Sum Sequential = 5.2428805120000000000e+13 Final Sum GPU = 5.2428805120000000000e+13 Initializing Arrays : Wall Clock = 0 second 38916 micro Preparing GPU/OpenCL : Wall Clock = 0 second 149412 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 2399 micro Time for Sequential Sum computing : Wall Clock = 0 second 30584 micro
+Valid pass : Trial = 4 ; Array size = 10240000 ; WorkGroup size = 64
+Problem size = 10240000 Final Sum Sequential = 5.2428805120000000000e+13 Final Sum GPU = 5.2428805120000000000e+13 Initializing Arrays : Wall Clock = 0 second 39293 micro Preparing GPU/OpenCL : Wall Clock = 0 second 148567 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 2387 micro Time for Sequential Sum computing : Wall Clock = 0 second 28385 micro
+Valid pass : Trial = 5 ; Array size = 10240000 ; WorkGroup size = 64
+Problem size = 10240000 Final Sum Sequential = 5.2428805120000000000e+13 Final Sum GPU = 5.2428805120000000000e+13 Initializing Arrays : Wall Clock = 0 second 39660 micro Preparing GPU/OpenCL : Wall Clock = 0 second 149292 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 2381 micro Time for Sequential Sum computing : Wall Clock = 0 second 28402 micro
+Valid pass : Trial = 6 ; Array size = 10240000 ; WorkGroup size = 64
+Problem size = 10240000 Final Sum Sequential = 5.2428805120000000000e+13 Final Sum GPU = 5.2428805120000000000e+13 Initializing Arrays : Wall Clock = 0 second 39138 micro Preparing GPU/OpenCL : Wall Clock = 0 second 150128 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 2388 micro Time for Sequential Sum computing : Wall Clock = 0 second 28615 micro
+Valid pass : Trial = 7 ; Array size = 10240000 ; WorkGroup size = 64
+ 20161213   18:38:58      0    67    40  3004   745
+ 20161213   18:38:58      1    13    33   324   324
+Problem size = 10240000 Final Sum Sequential = 5.2428805120000000000e+13 Final Sum GPU = 5.2428805120000000000e+13 Initializing Arrays : Wall Clock = 0 second 39335 micro Preparing GPU/OpenCL : Wall Clock = 0 second 149150 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 2391 micro Time for Sequential Sum computing : Wall Clock = 0 second 28380 micro
+Valid pass : Trial = 8 ; Array size = 10240000 ; WorkGroup size = 64
+Problem size = 10240000 Final Sum Sequential = 5.2428805120000000000e+13 Final Sum GPU = 5.2428805120000000000e+13 Initializing Arrays : Wall Clock = 0 second 39319 micro Preparing GPU/OpenCL : Wall Clock = 0 second 149287 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 2400 micro Time for Sequential Sum computing : Wall Clock = 0 second 28378 micro
+Valid pass : Trial = 9 ; Array size = 10240000 ; WorkGroup size = 64
+Problem size = 10240000 Final Sum Sequential = 5.2428805120000000000e+13 Final Sum GPU = 5.2428805120000000000e+13 Initializing Arrays : Wall Clock = 0 second 39301 micro Preparing GPU/OpenCL : Wall Clock = 0 second 153619 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 2405 micro Time for Sequential Sum computing : Wall Clock = 0 second 28360 micro
+Valid pass : Trial = 10 ; Array size = 10240000 ; WorkGroup size = 64
+ 20161213   18:38:59      0    67    40  3004   745
+ 20161213   18:38:59      1    13    33   324   324
+Problem size = 10240000 Final Sum Sequential = 5.2428805120000000000e+13 Final Sum GPU = 5.2428805120000000000e+13 Initializing Arrays : Wall Clock = 0 second 38942 micro Preparing GPU/OpenCL : Wall Clock = 0 second 149358 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 2821 micro Time for Sequential Sum computing : Wall Clock = 0 second 28386 micro
+Valid pass : Trial = 0 ; Array size = 10240000 ; WorkGroup size = 128
+Problem size = 10240000 Final Sum Sequential = 5.2428805120000000000e+13 Final Sum GPU = 5.2428805120000000000e+13 Initializing Arrays : Wall Clock = 0 second 38340 micro Preparing GPU/OpenCL : Wall Clock = 0 second 146329 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 1596 micro Time for Sequential Sum computing : Wall Clock = 0 second 28371 micro
+Valid pass : Trial = 1 ; Array size = 10240000 ; WorkGroup size = 128
+Problem size = 10240000 Final Sum Sequential = 5.2428805120000000000e+13 Final Sum GPU = 5.2428805120000000000e+13 Initializing Arrays : Wall Clock = 0 second 38550 micro Preparing GPU/OpenCL : Wall Clock = 0 second 149589 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 1596 micro Time for Sequential Sum computing : Wall Clock = 0 second 28425 micro
+Valid pass : Trial = 2 ; Array size = 10240000 ; WorkGroup size = 128
+Problem size = 10240000 Final Sum Sequential = 5.2428805120000000000e+13 Final Sum GPU = 5.2428805120000000000e+13 Initializing Arrays : Wall Clock = 0 second 38328 micro Preparing GPU/OpenCL : Wall Clock = 0 second 150387 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 1595 micro Time for Sequential Sum computing : Wall Clock = 0 second 28611 micro
+Valid pass : Trial = 3 ; Array size = 10240000 ; WorkGroup size = 128
+#Date       Time        gpu   pwr  temp  mclk  pclk
+#YYYYMMDD   HH:MM:SS    Idx     W     C   MHz   MHz
+ 20161213   18:39:00      0    67    40  3004   745
+ 20161213   18:39:00      1    13    33   324   324
+Problem size = 10240000 Final Sum Sequential = 5.2428805120000000000e+13 Final Sum GPU = 5.2428805120000000000e+13 Initializing Arrays : Wall Clock = 0 second 39081 micro Preparing GPU/OpenCL : Wall Clock = 0 second 151507 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 1599 micro Time for Sequential Sum computing : Wall Clock = 0 second 28419 micro
+Valid pass : Trial = 4 ; Array size = 10240000 ; WorkGroup size = 128
+Problem size = 10240000 Final Sum Sequential = 5.2428805120000000000e+13 Final Sum GPU = 5.2428805120000000000e+13 Initializing Arrays : Wall Clock = 0 second 39234 micro Preparing GPU/OpenCL : Wall Clock = 0 second 146834 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 1592 micro Time for Sequential Sum computing : Wall Clock = 0 second 28423 micro
+Valid pass : Trial = 5 ; Array size = 10240000 ; WorkGroup size = 128
+Problem size = 10240000 Final Sum Sequential = 5.2428805120000000000e+13 Final Sum GPU = 5.2428805120000000000e+13 Initializing Arrays : Wall Clock = 0 second 38506 micro Preparing GPU/OpenCL : Wall Clock = 0 second 150443 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 1608 micro Time for Sequential Sum computing : Wall Clock = 0 second 28385 micro
+Valid pass : Trial = 6 ; Array size = 10240000 ; WorkGroup size = 128
+ 20161213   18:39:01      0    67    41  3004   745
+ 20161213   18:39:01      1    13    33   324   324
+Problem size = 10240000 Final Sum Sequential = 5.2428805120000000000e+13 Final Sum GPU = 5.2428805120000000000e+13 Initializing Arrays : Wall Clock = 0 second 38764 micro Preparing GPU/OpenCL : Wall Clock = 0 second 152200 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 1605 micro Time for Sequential Sum computing : Wall Clock = 0 second 32835 micro
+Valid pass : Trial = 7 ; Array size = 10240000 ; WorkGroup size = 128
+Problem size = 10240000 Final Sum Sequential = 5.2428805120000000000e+13 Final Sum GPU = 5.2428805120000000000e+13 Initializing Arrays : Wall Clock = 0 second 38762 micro Preparing GPU/OpenCL : Wall Clock = 0 second 150067 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 1595 micro Time for Sequential Sum computing : Wall Clock = 0 second 28393 micro
+Valid pass : Trial = 8 ; Array size = 10240000 ; WorkGroup size = 128
+Problem size = 10240000 Final Sum Sequential = 5.2428805120000000000e+13 Final Sum GPU = 5.2428805120000000000e+13 Initializing Arrays : Wall Clock = 0 second 38669 micro Preparing GPU/OpenCL : Wall Clock = 0 second 150661 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 1598 micro Time for Sequential Sum computing : Wall Clock = 0 second 28379 micro
+Valid pass : Trial = 9 ; Array size = 10240000 ; WorkGroup size = 128
+Problem size = 10240000 Final Sum Sequential = 5.2428805120000000000e+13 Final Sum GPU = 5.2428805120000000000e+13 Initializing Arrays : Wall Clock = 0 second 38388 micro Preparing GPU/OpenCL : Wall Clock = 0 second 160432 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 1589 micro Time for Sequential Sum computing : Wall Clock = 0 second 28378 micro
+Valid pass : Trial = 10 ; Array size = 10240000 ; WorkGroup size = 128
+ 20161213   18:39:02      0    67    41  3004   745
+ 20161213   18:39:02      1    13    33   324   324
+Problem size = 10240000 Final Sum Sequential = 5.2428805120000000000e+13 Final Sum GPU = 5.2428805120000000000e+13 Initializing Arrays : Wall Clock = 0 second 38298 micro Preparing GPU/OpenCL : Wall Clock = 0 second 151659 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 1602 micro Time for Sequential Sum computing : Wall Clock = 0 second 28387 micro
+Valid pass : Trial = 0 ; Array size = 10240000 ; WorkGroup size = 256
+Problem size = 10240000 Final Sum Sequential = 5.2428805120000000000e+13 Final Sum GPU = 5.2428805120000000000e+13 Initializing Arrays : Wall Clock = 0 second 38449 micro Preparing GPU/OpenCL : Wall Clock = 0 second 156131 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 1601 micro Time for Sequential Sum computing : Wall Clock = 0 second 28389 micro
+Valid pass : Trial = 1 ; Array size = 10240000 ; WorkGroup size = 256
+Problem size = 10240000 Final Sum Sequential = 5.2428805120000000000e+13 Final Sum GPU = 5.2428805120000000000e+13 Initializing Arrays : Wall Clock = 0 second 40358 micro Preparing GPU/OpenCL : Wall Clock = 0 second 140606 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 1580 micro Time for Sequential Sum computing : Wall Clock = 0 second 28613 micro
+Valid pass : Trial = 2 ; Array size = 10240000 ; WorkGroup size = 256
+ 20161213   18:39:03      0    68    41  3004   745
+ 20161213   18:39:03      1    13    33   324   324
+Problem size = 10240000 Final Sum Sequential = 5.2428805120000000000e+13 Final Sum GPU = 5.2428805120000000000e+13 Initializing Arrays : Wall Clock = 0 second 38178 micro Preparing GPU/OpenCL : Wall Clock = 0 second 144732 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 1580 micro Time for Sequential Sum computing : Wall Clock = 0 second 30362 micro
+Valid pass : Trial = 3 ; Array size = 10240000 ; WorkGroup size = 256
+Problem size = 10240000 Final Sum Sequential = 5.2428805120000000000e+13 Final Sum GPU = 5.2428805120000000000e+13 Initializing Arrays : Wall Clock = 0 second 38784 micro Preparing GPU/OpenCL : Wall Clock = 0 second 150188 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 1579 micro Time for Sequential Sum computing : Wall Clock = 0 second 28385 micro
+Valid pass : Trial = 4 ; Array size = 10240000 ; WorkGroup size = 256
+Problem size = 10240000 Final Sum Sequential = 5.2428805120000000000e+13 Final Sum GPU = 5.2428805120000000000e+13 Initializing Arrays : Wall Clock = 0 second 38591 micro Preparing GPU/OpenCL : Wall Clock = 0 second 148991 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 1583 micro Time for Sequential Sum computing : Wall Clock = 0 second 28633 micro
+Valid pass : Trial = 5 ; Array size = 10240000 ; WorkGroup size = 256
+Problem size = 10240000 Final Sum Sequential = 5.2428805120000000000e+13 Final Sum GPU = 5.2428805120000000000e+13 Initializing Arrays : Wall Clock = 0 second 38489 micro Preparing GPU/OpenCL : Wall Clock = 0 second 148252 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 1574 micro Time for Sequential Sum computing : Wall Clock = 0 second 28374 micro
+Valid pass : Trial = 6 ; Array size = 10240000 ; WorkGroup size = 256
+ 20161213   18:39:04      0    67    41  3004   745
+ 20161213   18:39:04      1    13    33   324   324
+Problem size = 10240000 Final Sum Sequential = 5.2428805120000000000e+13 Final Sum GPU = 5.2428805120000000000e+13 Initializing Arrays : Wall Clock = 0 second 38925 micro Preparing GPU/OpenCL : Wall Clock = 0 second 152017 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 1600 micro Time for Sequential Sum computing : Wall Clock = 0 second 29178 micro
+Valid pass : Trial = 7 ; Array size = 10240000 ; WorkGroup size = 256
+Problem size = 10240000 Final Sum Sequential = 5.2428805120000000000e+13 Final Sum GPU = 5.2428805120000000000e+13 Initializing Arrays : Wall Clock = 0 second 38227 micro Preparing GPU/OpenCL : Wall Clock = 0 second 153520 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 1585 micro Time for Sequential Sum computing : Wall Clock = 0 second 28383 micro
+Valid pass : Trial = 8 ; Array size = 10240000 ; WorkGroup size = 256
+Problem size = 10240000 Final Sum Sequential = 5.2428805120000000000e+13 Final Sum GPU = 5.2428805120000000000e+13 Initializing Arrays : Wall Clock = 0 second 38844 micro Preparing GPU/OpenCL : Wall Clock = 0 second 149227 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 1704 micro Time for Sequential Sum computing : Wall Clock = 0 second 28395 micro
+Valid pass : Trial = 9 ; Array size = 10240000 ; WorkGroup size = 256
+ 20161213   18:39:05      0    67    41  3004   745
+ 20161213   18:39:05      1    13    33   324   324
+Problem size = 10240000 Final Sum Sequential = 5.2428805120000000000e+13 Final Sum GPU = 5.2428805120000000000e+13 Initializing Arrays : Wall Clock = 0 second 38471 micro Preparing GPU/OpenCL : Wall Clock = 0 second 152034 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 1579 micro Time for Sequential Sum computing : Wall Clock = 0 second 30371 micro
+Valid pass : Trial = 10 ; Array size = 10240000 ; WorkGroup size = 256
+Problem size = 10240000 Final Sum Sequential = 5.2428805120000000000e+13 Final Sum GPU = 5.2428805120000000000e+13 Initializing Arrays : Wall Clock = 0 second 38524 micro Preparing GPU/OpenCL : Wall Clock = 0 second 152571 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 2018 micro Time for Sequential Sum computing : Wall Clock = 0 second 28400 micro
+Valid pass : Trial = 0 ; Array size = 10240000 ; WorkGroup size = 1024
+Problem size = 10240000 Final Sum Sequential = 5.2428805120000000000e+13 Final Sum GPU = 5.2428805120000000000e+13 Initializing Arrays : Wall Clock = 0 second 38537 micro Preparing GPU/OpenCL : Wall Clock = 0 second 149981 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 2048 micro Time for Sequential Sum computing : Wall Clock = 0 second 28896 micro
+Valid pass : Trial = 1 ; Array size = 10240000 ; WorkGroup size = 1024
+Problem size = 10240000 Final Sum Sequential = 5.2428805120000000000e+13 Final Sum GPU = 5.2428805120000000000e+13 Initializing Arrays : Wall Clock = 0 second 38271 micro Preparing GPU/OpenCL : Wall Clock = 0 second 154170 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 2021 micro Time for Sequential Sum computing : Wall Clock = 0 second 28390 micro
+Valid pass : Trial = 2 ; Array size = 10240000 ; WorkGroup size = 1024
+ 20161213   18:39:06      0    67    41  3004   745
+ 20161213   18:39:06      1    14    33   324   324
+Problem size = 10240000 Final Sum Sequential = 5.2428805120000000000e+13 Final Sum GPU = 5.2428805120000000000e+13 Initializing Arrays : Wall Clock = 0 second 38522 micro Preparing GPU/OpenCL : Wall Clock = 0 second 151336 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 2018 micro Time for Sequential Sum computing : Wall Clock = 0 second 28386 micro
+Valid pass : Trial = 3 ; Array size = 10240000 ; WorkGroup size = 1024
+Problem size = 10240000 Final Sum Sequential = 5.2428805120000000000e+13 Final Sum GPU = 5.2428805120000000000e+13 Initializing Arrays : Wall Clock = 0 second 38176 micro Preparing GPU/OpenCL : Wall Clock = 0 second 149234 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 2020 micro Time for Sequential Sum computing : Wall Clock = 0 second 28631 micro
+Valid pass : Trial = 4 ; Array size = 10240000 ; WorkGroup size = 1024
+Problem size = 10240000 Final Sum Sequential = 5.2428805120000000000e+13 Final Sum GPU = 5.2428805120000000000e+13 Initializing Arrays : Wall Clock = 0 second 38151 micro Preparing GPU/OpenCL : Wall Clock = 0 second 146937 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 2031 micro Time for Sequential Sum computing : Wall Clock = 0 second 28392 micro
+Valid pass : Trial = 5 ; Array size = 10240000 ; WorkGroup size = 1024
+ 20161213   18:39:07      0    67    41  3004   745
+ 20161213   18:39:07      1    13    33   324   324
+Problem size = 10240000 Final Sum Sequential = 5.2428805120000000000e+13 Final Sum GPU = 5.2428805120000000000e+13 Initializing Arrays : Wall Clock = 0 second 38792 micro Preparing GPU/OpenCL : Wall Clock = 0 second 149530 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 2023 micro Time for Sequential Sum computing : Wall Clock = 0 second 30319 micro
+Valid pass : Trial = 6 ; Array size = 10240000 ; WorkGroup size = 1024
+Problem size = 10240000 Final Sum Sequential = 5.2428805120000000000e+13 Final Sum GPU = 5.2428805120000000000e+13 Initializing Arrays : Wall Clock = 0 second 38417 micro Preparing GPU/OpenCL : Wall Clock = 0 second 149894 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 2031 micro Time for Sequential Sum computing : Wall Clock = 0 second 28400 micro
+Valid pass : Trial = 7 ; Array size = 10240000 ; WorkGroup size = 1024
+Problem size = 10240000 Final Sum Sequential = 5.2428805120000000000e+13 Final Sum GPU = 5.2428805120000000000e+13 Initializing Arrays : Wall Clock = 0 second 38367 micro Preparing GPU/OpenCL : Wall Clock = 0 second 151207 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 2029 micro Time for Sequential Sum computing : Wall Clock = 0 second 28536 micro
+Valid pass : Trial = 8 ; Array size = 10240000 ; WorkGroup size = 1024
+Problem size = 10240000 Final Sum Sequential = 5.2428805120000000000e+13 Final Sum GPU = 5.2428805120000000000e+13 Initializing Arrays : Wall Clock = 0 second 38755 micro Preparing GPU/OpenCL : Wall Clock = 0 second 149595 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 2042 micro Time for Sequential Sum computing : Wall Clock = 0 second 28379 micro
+Valid pass : Trial = 9 ; Array size = 10240000 ; WorkGroup size = 1024
+ 20161213   18:39:08      0    67    41  3004   745
+ 20161213   18:39:08      1    13    33   324   324
+Problem size = 10240000 Final Sum Sequential = 5.2428805120000000000e+13 Final Sum GPU = 5.2428805120000000000e+13 Initializing Arrays : Wall Clock = 0 second 38403 micro Preparing GPU/OpenCL : Wall Clock = 0 second 152532 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 2020 micro Time for Sequential Sum computing : Wall Clock = 0 second 28402 micro
+Valid pass : Trial = 10 ; Array size = 10240000 ; WorkGroup size = 1024
+ 20161213   18:39:09      0    76    41  3004   823
+ 20161213   18:39:09      1    14    33   324   324
+Problem size = 102400000 Final Sum Sequential = 5.2428800512000000000e+15 Final Sum GPU = 5.2428800512000000000e+15 Initializing Arrays : Wall Clock = 0 second 413323 micro Preparing GPU/OpenCL : Wall Clock = 0 second 245654 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 70497 micro Time for Sequential Sum computing : Wall Clock = 0 second 286932 micro
+Valid pass : Trial = 0 ; Array size = 102400000 ; WorkGroup size = 16
+ 20161213   18:39:10      0    71    41  3004   823
+ 20161213   18:39:10      1    13    33   324   324
+Problem size = 102400000 Final Sum Sequential = 5.2428800512000000000e+15 Final Sum GPU = 5.2428800512000000000e+15 Initializing Arrays : Wall Clock = 0 second 414818 micro Preparing GPU/OpenCL : Wall Clock = 0 second 242127 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 68182 micro Time for Sequential Sum computing : Wall Clock = 0 second 284822 micro
+Valid pass : Trial = 1 ; Array size = 102400000 ; WorkGroup size = 16
+ 20161213   18:39:11      0    69    41  3004   823
+ 20161213   18:39:11      1    13    33   324   324
+Problem size = 102400000 Final Sum Sequential = 5.2428800512000000000e+15 Final Sum GPU = 5.2428800512000000000e+15 Initializing Arrays : Wall Clock = 0 second 415974 micro Preparing GPU/OpenCL : Wall Clock = 0 second 247910 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 68431 micro Time for Sequential Sum computing : Wall Clock = 0 second 285038 micro
+Valid pass : Trial = 2 ; Array size = 102400000 ; WorkGroup size = 16
+ 20161213   18:39:12      0    69    41  3004   823
+ 20161213   18:39:12      1    13    33   324   324
+Problem size = 102400000 Final Sum Sequential = 5.2428800512000000000e+15 Final Sum GPU = 5.2428800512000000000e+15 Initializing Arrays : Wall Clock = 0 second 416037 micro Preparing GPU/OpenCL : Wall Clock = 0 second 247493 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 68444 micro Time for Sequential Sum computing : Wall Clock = 0 second 284641 micro
+Valid pass : Trial = 3 ; Array size = 102400000 ; WorkGroup size = 16
+ 20161213   18:39:13      0    69    41  3004   823
+ 20161213   18:39:13      1    13    33   324   324
+Problem size = 102400000 Final Sum Sequential = 5.2428800512000000000e+15 Final Sum GPU = 5.2428800512000000000e+15 Initializing Arrays : Wall Clock = 0 second 415164 micro Preparing GPU/OpenCL : Wall Clock = 0 second 248943 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 68624 micro Time for Sequential Sum computing : Wall Clock = 0 second 285342 micro
+Valid pass : Trial = 4 ; Array size = 102400000 ; WorkGroup size = 16
+ 20161213   18:39:14      0    69    41  3004   823
+ 20161213   18:39:14      1    14    33   324   324
+Problem size = 102400000 Final Sum Sequential = 5.2428800512000000000e+15 Final Sum GPU = 5.2428800512000000000e+15 Initializing Arrays : Wall Clock = 0 second 416850 micro Preparing GPU/OpenCL : Wall Clock = 0 second 243791 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 68352 micro Time for Sequential Sum computing : Wall Clock = 0 second 285565 micro
+Valid pass : Trial = 5 ; Array size = 102400000 ; WorkGroup size = 16
+ 20161213   18:39:15      0    69    41  3004   823
+ 20161213   18:39:15      1    13    33   324   324
+Problem size = 102400000 Final Sum Sequential = 5.2428800512000000000e+15 Final Sum GPU = 5.2428800512000000000e+15 Initializing Arrays : Wall Clock = 0 second 417410 micro Preparing GPU/OpenCL : Wall Clock = 0 second 247050 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 68378 micro Time for Sequential Sum computing : Wall Clock = 0 second 284608 micro
+Valid pass : Trial = 6 ; Array size = 102400000 ; WorkGroup size = 16
+ 20161213   18:39:16      0    69    41  3004   823
+ 20161213   18:39:16      1    14    33   324   324
+Problem size = 102400000 Final Sum Sequential = 5.2428800512000000000e+15 Final Sum GPU = 5.2428800512000000000e+15 Initializing Arrays : Wall Clock = 0 second 416197 micro Preparing GPU/OpenCL : Wall Clock = 0 second 251263 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 68568 micro Time for Sequential Sum computing : Wall Clock = 0 second 284606 micro
+Valid pass : Trial = 7 ; Array size = 102400000 ; WorkGroup size = 16
+ 20161213   18:39:17      0    69    41  3004   823
+ 20161213   18:39:17      1    14    33   324   324
+Problem size = 102400000 Final Sum Sequential = 5.2428800512000000000e+15 Final Sum GPU = 5.2428800512000000000e+15 Initializing Arrays : Wall Clock = 0 second 416095 micro Preparing GPU/OpenCL : Wall Clock = 0 second 244274 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 68461 micro Time for Sequential Sum computing : Wall Clock = 0 second 284679 micro
+Valid pass : Trial = 8 ; Array size = 102400000 ; WorkGroup size = 16
+ 20161213   18:39:18      0    70    41  3004   823
+ 20161213   18:39:18      1    14    33   324   324
+ 20161213   18:39:19      0    70    41  3004   823
+ 20161213   18:39:19      1    14    33   324   324
+Problem size = 102400000 Final Sum Sequential = 5.2428800512000000000e+15 Final Sum GPU = 5.2428800512000000000e+15 Initializing Arrays : Wall Clock = 0 second 416950 micro Preparing GPU/OpenCL : Wall Clock = 0 second 243651 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 68453 micro Time for Sequential Sum computing : Wall Clock = 0 second 284593 micro
+Valid pass : Trial = 9 ; Array size = 102400000 ; WorkGroup size = 16
+ 20161213   18:39:20      0    72    41  3004   823
+ 20161213   18:39:20      1    13    33   324   324
+Problem size = 102400000 Final Sum Sequential = 5.2428800512000000000e+15 Final Sum GPU = 5.2428800512000000000e+15 Initializing Arrays : Wall Clock = 0 second 414199 micro Preparing GPU/OpenCL : Wall Clock = 0 second 245847 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 68336 micro Time for Sequential Sum computing : Wall Clock = 0 second 286915 micro
+Valid pass : Trial = 10 ; Array size = 102400000 ; WorkGroup size = 16
+ 20161213   18:39:21      0    70    41  3004   823
+ 20161213   18:39:21      1    13    33   324   324
+Problem size = 102400000 Final Sum Sequential = 5.2428800512000000000e+15 Final Sum GPU = 5.2428800512000000000e+15 Initializing Arrays : Wall Clock = 0 second 400525 micro Preparing GPU/OpenCL : Wall Clock = 0 second 241603 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 37542 micro Time for Sequential Sum computing : Wall Clock = 0 second 286918 micro
+Valid pass : Trial = 0 ; Array size = 102400000 ; WorkGroup size = 32
+#Date       Time        gpu   pwr  temp  mclk  pclk
+#YYYYMMDD   HH:MM:SS    Idx     W     C   MHz   MHz
+ 20161213   18:39:22      0    69    41  3004   810
+ 20161213   18:39:22      1    13    33   324   324
+Problem size = 102400000 Final Sum Sequential = 5.2428800512000000000e+15 Final Sum GPU = 5.2428800512000000000e+15 Initializing Arrays : Wall Clock = 0 second 401292 micro Preparing GPU/OpenCL : Wall Clock = 0 second 241610 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 39688 micro Time for Sequential Sum computing : Wall Clock = 0 second 286981 micro
+Valid pass : Trial = 1 ; Array size = 102400000 ; WorkGroup size = 32
+ 20161213   18:39:23      0    72    41  3004   836
+ 20161213   18:39:23      1    14    33   324   324
+Problem size = 102400000 Final Sum Sequential = 5.2428800512000000000e+15 Final Sum GPU = 5.2428800512000000000e+15 Initializing Arrays : Wall Clock = 0 second 400819 micro Preparing GPU/OpenCL : Wall Clock = 0 second 241466 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 38459 micro Time for Sequential Sum computing : Wall Clock = 0 second 291692 micro
+Valid pass : Trial = 2 ; Array size = 102400000 ; WorkGroup size = 32
+ 20161213   18:39:24      0    74    42  3004   836
+ 20161213   18:39:24      1    14    33   324   324
+Problem size = 102400000 Final Sum Sequential = 5.2428800512000000000e+15 Final Sum GPU = 5.2428800512000000000e+15 Initializing Arrays : Wall Clock = 0 second 401351 micro Preparing GPU/OpenCL : Wall Clock = 0 second 239708 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 37320 micro Time for Sequential Sum computing : Wall Clock = 0 second 287583 micro
+Valid pass : Trial = 3 ; Array size = 102400000 ; WorkGroup size = 32
+ 20161213   18:39:25      0    76    41  3004   836
+ 20161213   18:39:25      1    14    33   324   324
+Problem size = 102400000 Final Sum Sequential = 5.2428800512000000000e+15 Final Sum GPU = 5.2428800512000000000e+15 Initializing Arrays : Wall Clock = 0 second 401729 micro Preparing GPU/OpenCL : Wall Clock = 0 second 243666 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 37230 micro Time for Sequential Sum computing : Wall Clock = 0 second 287536 micro
+Valid pass : Trial = 4 ; Array size = 102400000 ; WorkGroup size = 32
+ 20161213   18:39:26      0    77    42  3004   836
+ 20161213   18:39:26      1    13    33   324   324
+Problem size = 102400000 Final Sum Sequential = 5.2428800512000000000e+15 Final Sum GPU = 5.2428800512000000000e+15 Initializing Arrays : Wall Clock = 0 second 401925 micro Preparing GPU/OpenCL : Wall Clock = 0 second 242376 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 37256 micro Time for Sequential Sum computing : Wall Clock = 0 second 287003 micro
+Valid pass : Trial = 5 ; Array size = 102400000 ; WorkGroup size = 32
+ 20161213   18:39:27      0    72    42  3004   836
+ 20161213   18:39:27      1    13    33   324   324
+Problem size = 102400000 Final Sum Sequential = 5.2428800512000000000e+15 Final Sum GPU = 5.2428800512000000000e+15 Initializing Arrays : Wall Clock = 0 second 402496 micro Preparing GPU/OpenCL : Wall Clock = 0 second 249941 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 37213 micro Time for Sequential Sum computing : Wall Clock = 0 second 284575 micro
+Valid pass : Trial = 6 ; Array size = 102400000 ; WorkGroup size = 32
+ 20161213   18:39:28      0    72    42  3004   836
+ 20161213   18:39:28      1    14    33   324   324
+Problem size = 102400000 Final Sum Sequential = 5.2428800512000000000e+15 Final Sum GPU = 5.2428800512000000000e+15 Initializing Arrays : Wall Clock = 0 second 387573 micro Preparing GPU/OpenCL : Wall Clock = 0 second 230187 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 37243 micro Time for Sequential Sum computing : Wall Clock = 0 second 284877 micro
+Valid pass : Trial = 7 ; Array size = 102400000 ; WorkGroup size = 32
+ 20161213   18:39:29      0    71    42  3004   836
+ 20161213   18:39:29      1    13    33   324   324
+Problem size = 102400000 Final Sum Sequential = 5.2428800512000000000e+15 Final Sum GPU = 5.2428800512000000000e+15 Initializing Arrays : Wall Clock = 0 second 400350 micro Preparing GPU/OpenCL : Wall Clock = 0 second 243448 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 37377 micro Time for Sequential Sum computing : Wall Clock = 0 second 284667 micro
+Valid pass : Trial = 8 ; Array size = 102400000 ; WorkGroup size = 32
+ 20161213   18:39:30      0    70    42  3004   836
+ 20161213   18:39:30      1    13    33   324   324
+Problem size = 102400000 Final Sum Sequential = 5.2428800512000000000e+15 Final Sum GPU = 5.2428800512000000000e+15 Initializing Arrays : Wall Clock = 0 second 400735 micro Preparing GPU/OpenCL : Wall Clock = 0 second 244820 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 37284 micro Time for Sequential Sum computing : Wall Clock = 0 second 284571 micro
+Valid pass : Trial = 9 ; Array size = 102400000 ; WorkGroup size = 32
+ 20161213   18:39:31      0    70    42  3004   836
+ 20161213   18:39:31      1    13    33   324   324
+Problem size = 102400000 Final Sum Sequential = 5.2428800512000000000e+15 Final Sum GPU = 5.2428800512000000000e+15 Initializing Arrays : Wall Clock = 0 second 400153 micro Preparing GPU/OpenCL : Wall Clock = 0 second 244150 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 37291 micro Time for Sequential Sum computing : Wall Clock = 0 second 284642 micro
+Valid pass : Trial = 10 ; Array size = 102400000 ; WorkGroup size = 32
+ 20161213   18:39:32      0    70    41  3004   836
+ 20161213   18:39:32      1    13    33   324   324
+Problem size = 102400000 Final Sum Sequential = 5.2428800512000000000e+15 Final Sum GPU = 5.2428800512000000000e+15 Initializing Arrays : Wall Clock = 0 second 394083 micro Preparing GPU/OpenCL : Wall Clock = 0 second 242061 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 21429 micro Time for Sequential Sum computing : Wall Clock = 0 second 286293 micro
+Valid pass : Trial = 0 ; Array size = 102400000 ; WorkGroup size = 64
+ 20161213   18:39:33      0    70    42  3004   836
+ 20161213   18:39:33      1    13    33   324   324
+Problem size = 102400000 Final Sum Sequential = 5.2428800512000000000e+15 Final Sum GPU = 5.2428800512000000000e+15 Initializing Arrays : Wall Clock = 0 second 395712 micro Preparing GPU/OpenCL : Wall Clock = 0 second 244630 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 21642 micro Time for Sequential Sum computing : Wall Clock = 0 second 286430 micro
+Valid pass : Trial = 1 ; Array size = 102400000 ; WorkGroup size = 64
+ 20161213   18:39:34      0    70    42  3004   836
+ 20161213   18:39:34      1    13    33   324   324
+Problem size = 102400000 Final Sum Sequential = 5.2428800512000000000e+15 Final Sum GPU = 5.2428800512000000000e+15 Initializing Arrays : Wall Clock = 0 second 396249 micro Preparing GPU/OpenCL : Wall Clock = 0 second 243308 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 21428 micro Time for Sequential Sum computing : Wall Clock = 0 second 286057 micro
+Valid pass : Trial = 2 ; Array size = 102400000 ; WorkGroup size = 64
+ 20161213   18:39:35      0    70    42  3004   836
+ 20161213   18:39:35      1    14    33   324   324
+Problem size = 102400000 Final Sum Sequential = 5.2428800512000000000e+15 Final Sum GPU = 5.2428800512000000000e+15 Initializing Arrays : Wall Clock = 0 second 393940 micro Preparing GPU/OpenCL : Wall Clock = 0 second 241647 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 21387 micro Time for Sequential Sum computing : Wall Clock = 0 second 284636 micro
+Valid pass : Trial = 3 ; Array size = 102400000 ; WorkGroup size = 64
+ 20161213   18:39:36      0    70    42  3004   836
+ 20161213   18:39:36      1    14    33   324   324
+Problem size = 102400000 Final Sum Sequential = 5.2428800512000000000e+15 Final Sum GPU = 5.2428800512000000000e+15 Initializing Arrays : Wall Clock = 0 second 386700 micro Preparing GPU/OpenCL : Wall Clock = 0 second 230163 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 21492 micro Time for Sequential Sum computing : Wall Clock = 0 second 285708 micro
+Valid pass : Trial = 4 ; Array size = 102400000 ; WorkGroup size = 64
+ 20161213   18:39:37      0    70    42  3004   836
+ 20161213   18:39:37      1    13    33   324   324
+Problem size = 102400000 Final Sum Sequential = 5.2428800512000000000e+15 Final Sum GPU = 5.2428800512000000000e+15 Initializing Arrays : Wall Clock = 0 second 392731 micro Preparing GPU/OpenCL : Wall Clock = 0 second 241321 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 21425 micro Time for Sequential Sum computing : Wall Clock = 0 second 284572 micro
+Valid pass : Trial = 5 ; Array size = 102400000 ; WorkGroup size = 64
+ 20161213   18:39:38      0    70    42  3004   836
+ 20161213   18:39:38      1    13    33   324   324
+Problem size = 102400000 Final Sum Sequential = 5.2428800512000000000e+15 Final Sum GPU = 5.2428800512000000000e+15 Initializing Arrays : Wall Clock = 0 second 392858 micro Preparing GPU/OpenCL : Wall Clock = 0 second 241948 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 21386 micro Time for Sequential Sum computing : Wall Clock = 0 second 284672 micro
+Valid pass : Trial = 6 ; Array size = 102400000 ; WorkGroup size = 64
+ 20161213   18:39:39      0    70    42  3004   836
+ 20161213   18:39:39      1    13    33   324   324
+Problem size = 102400000 Final Sum Sequential = 5.2428800512000000000e+15 Final Sum GPU = 5.2428800512000000000e+15 Initializing Arrays : Wall Clock = 0 second 393049 micro Preparing GPU/OpenCL : Wall Clock = 0 second 241971 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 21420 micro Time for Sequential Sum computing : Wall Clock = 0 second 284709 micro
+Valid pass : Trial = 7 ; Array size = 102400000 ; WorkGroup size = 64
+ 20161213   18:39:40      0    70    42  3004   836
+ 20161213   18:39:40      1    14    33   324   324
+Problem size = 102400000 Final Sum Sequential = 5.2428800512000000000e+15 Final Sum GPU = 5.2428800512000000000e+15 Initializing Arrays : Wall Clock = 0 second 393037 micro Preparing GPU/OpenCL : Wall Clock = 0 second 242423 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 21447 micro Time for Sequential Sum computing : Wall Clock = 0 second 285436 micro
+Valid pass : Trial = 8 ; Array size = 102400000 ; WorkGroup size = 64
+ 20161213   18:39:41      0    70    42  3004   836
+ 20161213   18:39:41      1    14    33   324   324
+Problem size = 102400000 Final Sum Sequential = 5.2428800512000000000e+15 Final Sum GPU = 5.2428800512000000000e+15 Initializing Arrays : Wall Clock = 0 second 394211 micro Preparing GPU/OpenCL : Wall Clock = 0 second 243894 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 21430 micro Time for Sequential Sum computing : Wall Clock = 0 second 284982 micro
+Valid pass : Trial = 9 ; Array size = 102400000 ; WorkGroup size = 64
+ 20161213   18:39:42      0    70    42  3004   836
+ 20161213   18:39:42      1    14    33   324   324
+Problem size = 102400000 Final Sum Sequential = 5.2428800512000000000e+15 Final Sum GPU = 5.2428800512000000000e+15 Initializing Arrays : Wall Clock = 0 second 394517 micro Preparing GPU/OpenCL : Wall Clock = 0 second 248131 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 21434 micro Time for Sequential Sum computing : Wall Clock = 0 second 285110 micro
+Valid pass : Trial = 10 ; Array size = 102400000 ; WorkGroup size = 64
+ 20161213   18:39:43      0    70    42  3004   836
+ 20161213   18:39:43      1    14    33   324   324
+Problem size = 102400000 Final Sum Sequential = 5.2428800512000000000e+15 Final Sum GPU = 5.2428800512000000000e+15 Initializing Arrays : Wall Clock = 0 second 389710 micro Preparing GPU/OpenCL : Wall Clock = 0 second 246129 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 14098 micro Time for Sequential Sum computing : Wall Clock = 0 second 284773 micro
+Valid pass : Trial = 0 ; Array size = 102400000 ; WorkGroup size = 128
+#Date       Time        gpu   pwr  temp  mclk  pclk
+#YYYYMMDD   HH:MM:SS    Idx     W     C   MHz   MHz
+ 20161213   18:39:44      0    70    42  3004   836
+ 20161213   18:39:44      1    14    33   324   324
+Problem size = 102400000 Final Sum Sequential = 5.2428800512000000000e+15 Final Sum GPU = 5.2428800512000000000e+15 Initializing Arrays : Wall Clock = 0 second 389915 micro Preparing GPU/OpenCL : Wall Clock = 0 second 241786 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 14170 micro Time for Sequential Sum computing : Wall Clock = 0 second 285802 micro
+Valid pass : Trial = 1 ; Array size = 102400000 ; WorkGroup size = 128
+ 20161213   18:39:45      0    70    42  3004   836
+ 20161213   18:39:45      1    14    33   324   324
+Problem size = 102400000 Final Sum Sequential = 5.2428800512000000000e+15 Final Sum GPU = 5.2428800512000000000e+15 Initializing Arrays : Wall Clock = 0 second 392338 micro Preparing GPU/OpenCL : Wall Clock = 0 second 242923 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 14069 micro Time for Sequential Sum computing : Wall Clock = 0 second 285418 micro
+Valid pass : Trial = 2 ; Array size = 102400000 ; WorkGroup size = 128
+ 20161213   18:39:46      0    70    42  3004   836
+ 20161213   18:39:46      1    14    33   324   324
+Problem size = 102400000 Final Sum Sequential = 5.2428800512000000000e+15 Final Sum GPU = 5.2428800512000000000e+15 Initializing Arrays : Wall Clock = 0 second 391245 micro Preparing GPU/OpenCL : Wall Clock = 0 second 241682 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 14057 micro Time for Sequential Sum computing : Wall Clock = 0 second 284665 micro
+Valid pass : Trial = 3 ; Array size = 102400000 ; WorkGroup size = 128
+ 20161213   18:39:47      0    70    42  3004   836
+ 20161213   18:39:47      1    14    33   324   324
+Problem size = 102400000 Final Sum Sequential = 5.2428800512000000000e+15 Final Sum GPU = 5.2428800512000000000e+15 Initializing Arrays : Wall Clock = 0 second 389718 micro Preparing GPU/OpenCL : Wall Clock = 0 second 242128 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 14083 micro Time for Sequential Sum computing : Wall Clock = 0 second 285016 micro
+Valid pass : Trial = 4 ; Array size = 102400000 ; WorkGroup size = 128
+ 20161213   18:39:48      0    70    42  3004   836
+ 20161213   18:39:48      1    14    33   324   324
+Problem size = 102400000 Final Sum Sequential = 5.2428800512000000000e+15 Final Sum GPU = 5.2428800512000000000e+15 Initializing Arrays : Wall Clock = 0 second 390339 micro Preparing GPU/OpenCL : Wall Clock = 0 second 240247 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 14078 micro Time for Sequential Sum computing : Wall Clock = 0 second 285519 micro
+Valid pass : Trial = 5 ; Array size = 102400000 ; WorkGroup size = 128
+ 20161213   18:39:49      0    70    42  3004   836
+ 20161213   18:39:49      1    14    33   324   324
+Problem size = 102400000 Final Sum Sequential = 5.2428800512000000000e+15 Final Sum GPU = 5.2428800512000000000e+15 Initializing Arrays : Wall Clock = 0 second 390816 micro Preparing GPU/OpenCL : Wall Clock = 0 second 241211 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 14073 micro Time for Sequential Sum computing : Wall Clock = 0 second 284744 micro
+Valid pass : Trial = 6 ; Array size = 102400000 ; WorkGroup size = 128
+ 20161213   18:39:50      0    70    42  3004   836
+ 20161213   18:39:50      1    14    33   324   324
+Problem size = 102400000 Final Sum Sequential = 5.2428800512000000000e+15 Final Sum GPU = 5.2428800512000000000e+15 Initializing Arrays : Wall Clock = 0 second 389600 micro Preparing GPU/OpenCL : Wall Clock = 0 second 241575 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 14082 micro Time for Sequential Sum computing : Wall Clock = 0 second 284680 micro
+Valid pass : Trial = 7 ; Array size = 102400000 ; WorkGroup size = 128
+ 20161213   18:39:51      0    70    42  3004   836
+ 20161213   18:39:51      1    14    33   324   324
+Problem size = 102400000 Final Sum Sequential = 5.2428800512000000000e+15 Final Sum GPU = 5.2428800512000000000e+15 Initializing Arrays : Wall Clock = 0 second 390138 micro Preparing GPU/OpenCL : Wall Clock = 0 second 240901 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 14075 micro Time for Sequential Sum computing : Wall Clock = 0 second 284721 micro
+Valid pass : Trial = 8 ; Array size = 102400000 ; WorkGroup size = 128
+ 20161213   18:39:52      0    70    42  3004   836
+ 20161213   18:39:52      1    14    34   324   324
+Problem size = 102400000 Final Sum Sequential = 5.2428800512000000000e+15 Final Sum GPU = 5.2428800512000000000e+15 Initializing Arrays : Wall Clock = 0 second 389659 micro Preparing GPU/OpenCL : Wall Clock = 0 second 240736 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 14084 micro Time for Sequential Sum computing : Wall Clock = 0 second 320613 micro
+Valid pass : Trial = 9 ; Array size = 102400000 ; WorkGroup size = 128
+ 20161213   18:39:53      0    70    42  3004   836
+ 20161213   18:39:53      1    14    33   324   324
+Problem size = 102400000 Final Sum Sequential = 5.2428800512000000000e+15 Final Sum GPU = 5.2428800512000000000e+15 Initializing Arrays : Wall Clock = 0 second 385125 micro Preparing GPU/OpenCL : Wall Clock = 0 second 241343 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 14055 micro Time for Sequential Sum computing : Wall Clock = 0 second 284531 micro
+Valid pass : Trial = 10 ; Array size = 102400000 ; WorkGroup size = 128
+ 20161213   18:39:54      0    70    42  3004   836
+ 20161213   18:39:54      1    14    34   324   324
+Problem size = 102400000 Final Sum Sequential = 5.2428800512000000000e+15 Final Sum GPU = 5.2428800512000000000e+15 Initializing Arrays : Wall Clock = 0 second 388027 micro Preparing GPU/OpenCL : Wall Clock = 0 second 241335 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 13903 micro Time for Sequential Sum computing : Wall Clock = 0 second 284857 micro
+Valid pass : Trial = 0 ; Array size = 102400000 ; WorkGroup size = 256
+ 20161213   18:39:55      0    70    42  3004   836
+ 20161213   18:39:55      1    14    33   324   324
+Problem size = 102400000 Final Sum Sequential = 5.2428800512000000000e+15 Final Sum GPU = 5.2428800512000000000e+15 Initializing Arrays : Wall Clock = 0 second 388261 micro Preparing GPU/OpenCL : Wall Clock = 0 second 242521 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 13908 micro Time for Sequential Sum computing : Wall Clock = 0 second 284998 micro
+Valid pass : Trial = 1 ; Array size = 102400000 ; WorkGroup size = 256
+ 20161213   18:39:56      0    70    42  3004   836
+ 20161213   18:39:56      1    14    33   324   324
+Problem size = 102400000 Final Sum Sequential = 5.2428800512000000000e+15 Final Sum GPU = 5.2428800512000000000e+15 Initializing Arrays : Wall Clock = 0 second 388147 micro Preparing GPU/OpenCL : Wall Clock = 0 second 241878 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 13889 micro Time for Sequential Sum computing : Wall Clock = 0 second 284716 micro
+Valid pass : Trial = 2 ; Array size = 102400000 ; WorkGroup size = 256
+ 20161213   18:39:57      0    70    42  3004   836
+ 20161213   18:39:57      1    14    33   324   324
+Problem size = 102400000 Final Sum Sequential = 5.2428800512000000000e+15 Final Sum GPU = 5.2428800512000000000e+15 Initializing Arrays : Wall Clock = 0 second 388046 micro Preparing GPU/OpenCL : Wall Clock = 0 second 242316 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 13898 micro Time for Sequential Sum computing : Wall Clock = 0 second 284668 micro
+Valid pass : Trial = 3 ; Array size = 102400000 ; WorkGroup size = 256
+ 20161213   18:39:58      0    70    42  3004   836
+ 20161213   18:39:58      1    14    33   324   324
+Problem size = 102400000 Final Sum Sequential = 5.2428800512000000000e+15 Final Sum GPU = 5.2428800512000000000e+15 Initializing Arrays : Wall Clock = 0 second 388175 micro Preparing GPU/OpenCL : Wall Clock = 0 second 240186 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 13904 micro Time for Sequential Sum computing : Wall Clock = 0 second 284768 micro
+Valid pass : Trial = 4 ; Array size = 102400000 ; WorkGroup size = 256
+ 20161213   18:39:59      0    70    42  3004   836
+ 20161213   18:39:59      1    13    33   324   324
+Problem size = 102400000 Final Sum Sequential = 5.2428800512000000000e+15 Final Sum GPU = 5.2428800512000000000e+15 Initializing Arrays : Wall Clock = 0 second 388518 micro Preparing GPU/OpenCL : Wall Clock = 0 second 242366 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 13900 micro Time for Sequential Sum computing : Wall Clock = 0 second 284750 micro
+Valid pass : Trial = 5 ; Array size = 102400000 ; WorkGroup size = 256
+ 20161213   18:40:00      0    70    42  3004   836
+ 20161213   18:40:00      1    14    33   324   324
+Problem size = 102400000 Final Sum Sequential = 5.2428800512000000000e+15 Final Sum GPU = 5.2428800512000000000e+15 Initializing Arrays : Wall Clock = 0 second 388169 micro Preparing GPU/OpenCL : Wall Clock = 0 second 239706 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 13931 micro Time for Sequential Sum computing : Wall Clock = 0 second 284905 micro
+Valid pass : Trial = 6 ; Array size = 102400000 ; WorkGroup size = 256
+ 20161213   18:40:01      0    70    42  3004   836
+ 20161213   18:40:01      1    13    33   324   324
+Problem size = 102400000 Final Sum Sequential = 5.2428800512000000000e+15 Final Sum GPU = 5.2428800512000000000e+15 Initializing Arrays : Wall Clock = 0 second 387995 micro Preparing GPU/OpenCL : Wall Clock = 0 second 239899 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 13949 micro Time for Sequential Sum computing : Wall Clock = 0 second 284669 micro
+Valid pass : Trial = 7 ; Array size = 102400000 ; WorkGroup size = 256
+ 20161213   18:40:02      0    70    42  3004   836
+ 20161213   18:40:02      1    13    33   324   324
+Problem size = 102400000 Final Sum Sequential = 5.2428800512000000000e+15 Final Sum GPU = 5.2428800512000000000e+15 Initializing Arrays : Wall Clock = 0 second 388093 micro Preparing GPU/OpenCL : Wall Clock = 0 second 240754 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 13938 micro Time for Sequential Sum computing : Wall Clock = 0 second 284727 micro
+Valid pass : Trial = 8 ; Array size = 102400000 ; WorkGroup size = 256
+ 20161213   18:40:03      0    70    42  3004   836
+ 20161213   18:40:03      1    13    34   324   324
+Problem size = 102400000 Final Sum Sequential = 5.2428800512000000000e+15 Final Sum GPU = 5.2428800512000000000e+15 Initializing Arrays : Wall Clock = 0 second 388139 micro Preparing GPU/OpenCL : Wall Clock = 0 second 242899 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 13900 micro Time for Sequential Sum computing : Wall Clock = 0 second 284660 micro
+Valid pass : Trial = 9 ; Array size = 102400000 ; WorkGroup size = 256
+ 20161213   18:40:04      0    70    43  3004   836
+ 20161213   18:40:04      1    13    33   324   324
+Problem size = 102400000 Final Sum Sequential = 5.2428800512000000000e+15 Final Sum GPU = 5.2428800512000000000e+15 Initializing Arrays : Wall Clock = 0 second 387870 micro Preparing GPU/OpenCL : Wall Clock = 0 second 241733 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 13898 micro Time for Sequential Sum computing : Wall Clock = 0 second 284579 micro
+Valid pass : Trial = 10 ; Array size = 102400000 ; WorkGroup size = 256
+ 20161213   18:40:05      0    70    43  3004   836
+ 20161213   18:40:05      1    13    33   324   324
+Problem size = 102400000 Final Sum Sequential = 5.2428800512000000000e+15 Final Sum GPU = 5.2428800512000000000e+15 Initializing Arrays : Wall Clock = 0 second 386682 micro Preparing GPU/OpenCL : Wall Clock = 0 second 241299 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 17928 micro Time for Sequential Sum computing : Wall Clock = 0 second 284993 micro
+Valid pass : Trial = 0 ; Array size = 102400000 ; WorkGroup size = 1024
+#Date       Time        gpu   pwr  temp  mclk  pclk
+#YYYYMMDD   HH:MM:SS    Idx     W     C   MHz   MHz
+ 20161213   18:40:06      0    70    43  3004   836
+ 20161213   18:40:06      1    13    33   324   324
+Problem size = 102400000 Final Sum Sequential = 5.2428800512000000000e+15 Final Sum GPU = 5.2428800512000000000e+15 Initializing Arrays : Wall Clock = 0 second 387148 micro Preparing GPU/OpenCL : Wall Clock = 0 second 239659 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 17928 micro Time for Sequential Sum computing : Wall Clock = 0 second 284835 micro
+Valid pass : Trial = 1 ; Array size = 102400000 ; WorkGroup size = 1024
+ 20161213   18:40:07      0    70    43  3004   836
+ 20161213   18:40:07      1    13    33   324   324
+Problem size = 102400000 Final Sum Sequential = 5.2428800512000000000e+15 Final Sum GPU = 5.2428800512000000000e+15 Initializing Arrays : Wall Clock = 0 second 386623 micro Preparing GPU/OpenCL : Wall Clock = 0 second 241113 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 17915 micro Time for Sequential Sum computing : Wall Clock = 0 second 284689 micro
+Valid pass : Trial = 2 ; Array size = 102400000 ; WorkGroup size = 1024
+ 20161213   18:40:08      0    68    43  3004   745
+ 20161213   18:40:08      1    13    33   324   324
+Problem size = 102400000 Final Sum Sequential = 5.2428800512000000000e+15 Final Sum GPU = 5.2428800512000000000e+15 Initializing Arrays : Wall Clock = 0 second 386381 micro Preparing GPU/OpenCL : Wall Clock = 0 second 240021 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 19760 micro Time for Sequential Sum computing : Wall Clock = 0 second 285271 micro
+Valid pass : Trial = 3 ; Array size = 102400000 ; WorkGroup size = 1024
+ 20161213   18:40:09      0    67    42  3004   745
+ 20161213   18:40:09      1    13    33   324   324
+Problem size = 102400000 Final Sum Sequential = 5.2428800512000000000e+15 Final Sum GPU = 5.2428800512000000000e+15 Initializing Arrays : Wall Clock = 0 second 388641 micro Preparing GPU/OpenCL : Wall Clock = 0 second 241609 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 19760 micro Time for Sequential Sum computing : Wall Clock = 0 second 285443 micro
+Valid pass : Trial = 4 ; Array size = 102400000 ; WorkGroup size = 1024
+ 20161213   18:40:10      0    67    42  3004   745
+ 20161213   18:40:10      1    13    33   324   324
+Problem size = 102400000 Final Sum Sequential = 5.2428800512000000000e+15 Final Sum GPU = 5.2428800512000000000e+15 Initializing Arrays : Wall Clock = 0 second 387742 micro Preparing GPU/OpenCL : Wall Clock = 0 second 239847 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 19764 micro Time for Sequential Sum computing : Wall Clock = 0 second 285613 micro
+Valid pass : Trial = 5 ; Array size = 102400000 ; WorkGroup size = 1024
+ 20161213   18:40:11      0    67    42  3004   745
+ 20161213   18:40:11      1    14    34   324   324
+Problem size = 102400000 Final Sum Sequential = 5.2428800512000000000e+15 Final Sum GPU = 5.2428800512000000000e+15 Initializing Arrays : Wall Clock = 0 second 388077 micro Preparing GPU/OpenCL : Wall Clock = 0 second 240387 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 19749 micro Time for Sequential Sum computing : Wall Clock = 0 second 285646 micro
+Valid pass : Trial = 6 ; Array size = 102400000 ; WorkGroup size = 1024
+ 20161213   18:40:12      0    67    42  3004   745
+ 20161213   18:40:12      1    13    33   324   324
+Problem size = 102400000 Final Sum Sequential = 5.2428800512000000000e+15 Final Sum GPU = 5.2428800512000000000e+15 Initializing Arrays : Wall Clock = 0 second 387818 micro Preparing GPU/OpenCL : Wall Clock = 0 second 239255 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 19750 micro Time for Sequential Sum computing : Wall Clock = 0 second 285792 micro
+Valid pass : Trial = 7 ; Array size = 102400000 ; WorkGroup size = 1024
+ 20161213   18:40:13      0    67    42  3004   745
+ 20161213   18:40:13      1    13    33   324   324
+Problem size = 102400000 Final Sum Sequential = 5.2428800512000000000e+15 Final Sum GPU = 5.2428800512000000000e+15 Initializing Arrays : Wall Clock = 0 second 387454 micro Preparing GPU/OpenCL : Wall Clock = 0 second 241524 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 19762 micro Time for Sequential Sum computing : Wall Clock = 0 second 285502 micro
+Valid pass : Trial = 8 ; Array size = 102400000 ; WorkGroup size = 1024
+ 20161213   18:40:14      0    67    42  3004   745
+ 20161213   18:40:14      1    13    34   324   324
+Problem size = 102400000 Final Sum Sequential = 5.2428800512000000000e+15 Final Sum GPU = 5.2428800512000000000e+15 Initializing Arrays : Wall Clock = 0 second 388150 micro Preparing GPU/OpenCL : Wall Clock = 0 second 239817 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 19757 micro Time for Sequential Sum computing : Wall Clock = 0 second 285034 micro
+Valid pass : Trial = 9 ; Array size = 102400000 ; WorkGroup size = 1024
+ 20161213   18:40:15      0    67    42  3004   745
+ 20161213   18:40:15      1    13    33   324   324
+Problem size = 102400000 Final Sum Sequential = 5.2428800512000000000e+15 Final Sum GPU = 5.2428800512000000000e+15 Initializing Arrays : Wall Clock = 0 second 386869 micro Preparing GPU/OpenCL : Wall Clock = 0 second 240383 micro Time for one NDRangeKernel call and WorkGroups final Sum : Wall Clock = 0 second 19764 micro Time for Sequential Sum computing : Wall Clock = 0 second 285070 micro
+Valid pass : Trial = 10 ; Array size = 102400000 ; WorkGroup size = 1024
+1024 16 .000004  .000062
+1024 32 .000003  .000056
+1024 64 .000003  .000057
+1024 128 .000003  .000061
+1024 256 .000004  .000065
+1024 1024 .000003  .000063
+ 
+10240 16   .000036  .000069
+10240 32   .000035  .000066
+10240 64   .000035  .000065
+10240 128  .000039  .000065
+10240 256  .000042  .000068
+10240 1024 .000040  .000069
+ 
+102400 16   0.000318  .000145
+102400 32   0.000319  .000108
+102400 64   0.000330  .000095
+102400 128  0.000325  .000074
+102400 256  0.000334  .000080
+102400 1024 0.000321  .000086
+ 
+1024000 16    0.003110  0.000894
+1024000 32    0.003109  0.000523
+1024000 64    0.003113  0.000332
+1024000 128   0.003113  0.000248
+1024000 256   0.003109  0.000228
+1024000 1024  0.003135  0.000283
+ 
+10240000 16   0.031250  0.008045
+10240000 32   0.031477  0.004488
+10240000 64   0.031462  0.002638
+10240000 128  0.031700  0.001879
+10240000 256  0.031747  0.001756
+10240000 1024 0.031513  0.002230
+ 
+102400000 16    0.313774  0.075472
+102400000 32    0.315104  0.041390
+102400000 64    0.313860  0.023592
+102400000 128   0.317048  0.015492
+102400000 256   0.313229  0.015301
+102400000 1024  0.313788  0.021183
+ 
+KONIEC
