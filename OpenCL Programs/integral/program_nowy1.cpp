@@ -51,7 +51,7 @@ int main()
 	std::cout<<"Device amount: "<<deviceNumber<<std::endl;
 	deviceNumber = 2;
 	// Allocate and initialize host arrays
-    size_t global_size = 1;//134217728;//65536;
+    size_t global_size = 262144;//134217728;//65536;
 	std::cout<<"global_size: "<<global_size<<std::endl;
     size_t localWorkSize = 1;
 	
@@ -74,7 +74,7 @@ int main()
 	context[i] = clCreateContext(0, 1, &deviceIds[i], NULL, NULL, NULL);
 	}
 	
-	if (NULL == context)
+	if (NULL == context[0])
     {
         std::cout << "Failed to create OpenCL context." << std::endl;
     }
